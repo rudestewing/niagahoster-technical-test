@@ -22,7 +22,7 @@
                 <div class="t-flex lg:t-hidden t-items-center">
                     <span 
                         @click="showMobileNav()" 
-                        class="t-w-10 t-h-10 t-rounded-lg t-flex t-justify-center t-items-center t-border t-border-blue-400 hover:t-bg-blue-700 hover:t-text-white hover:t-border-blue-900"
+                        class="t-w-10 t-h-10 t-rounded-lg t-flex t-justify-center t-items-center t-border t-border-blue-400 hover:t-bg-blue-700 hover:t-text-white hover:t-border-blue-900 t-cursor-pointer"
                         >
                         <i class="fas fa-bars t-text-lg"></i>
                     </span>
@@ -30,43 +30,22 @@
             </div>
         </app-wrapper-container>
         <div class="t-border-b t-border-gray-400"></div>
-
-        <div 
-            id="nav-mobile" 
-            class="t-fixed t-bg-white lg:t-hidden t-h-full t-pb-10 t-overflow-scroll t-border-l t-border-gray-400" 
-            :class="{
-                'active': isNavMobileShowed
-            }"
-            >
-            <div>
-                <div class="t-block t-text-right t-p-6">
-                    <span @click="hideMobileNav">
-                        <i class="fas fa-times t-text-2xl"></i>
-                    </span>
-                </div>
-                <div class="t-border-b t-border-gray-400"></div>
-                <ul>
-                    <li v-for="(menu, index) in menus" :key="index" class="">
-                        <a :href="menu.path" class="t-px-5 t-py-5 t-block t-text-right">
-                            {{menu.title}}
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <MobileNav :menus="menus" :isMobileNavShowed="isMobileNavShowed" @close="hideMobileNav" />
     </div>
 </template>
 
 <script>
 import HeaderTop from './HeaderTop.vue';
+import MobileNav from './MobileNav.vue';
 
 export default {
     components: {
         HeaderTop,        
+        MobileNav,        
     },
     data() {
         return {
-            isNavMobileShowed: false,
+            isMobileNavShowed: false,
             menus: [
                 {
                     title: 'Hosting',
@@ -114,27 +93,12 @@ export default {
     methods: {
         showMobileNav() {
             console.log('show mobile nav');
-            this.isNavMobileShowed = true;
+            this.isMobileNavShowed = true;
         },
         hideMobileNav() {
             console.log('hide mobile nav');
-            this.isNavMobileShowed = false;
+            this.isMobileNavShowed = false;
         }
     }
-
 }
 </script>
-
-<style lang="scss">
-    #nav-mobile {
-        width: 300px;
-        top: 0; 
-        right: 0;
-        transform: translateX(300px);
-        transition: transform .3s ease-in-out;
-
-        &.active {
-            transform: translateX(0px);
-        }
-    }
-</style>
