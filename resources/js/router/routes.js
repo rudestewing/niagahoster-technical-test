@@ -6,12 +6,12 @@ export default [
     },
     {
         path: '/hosting/',
-        name: 'profile',
+        name: 'hosting',
         component: () => import('../pages/hosting.vue')
     },
     {
         path: '/server/',
-        name: 'profile',
+        name: 'server',
         component: () => import('../pages/server.vue')
     },
 ];

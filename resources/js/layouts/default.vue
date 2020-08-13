@@ -1,8 +1,10 @@
 <template>
-    <div>
+    <div id="layout-default" class="t-h-full">
         <Header />
-            <slot> </slot>
-        <Footer />
+            <div id="content">
+                <slot> </slot>
+            </div>
+        <!-- <Footer /> -->
     </div>
 </template>
 

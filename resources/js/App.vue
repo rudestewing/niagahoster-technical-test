@@ -1,5 +1,5 @@
 <template>
-    <div class="t-min-h-full">
+    <div class="t-min-h-full t-text-gray-700">
         <component :is="`LayoutDefault`" >
             <router-view> </router-view>
         </component>
@@ -23,6 +23,7 @@ export default {
 
 <style lang="scss">
     html, body {
+        font-size: 1rem;
         height: 100%;
     }
 </style>
