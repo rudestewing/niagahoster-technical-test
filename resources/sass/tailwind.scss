@@ -1,8 +1,29 @@
 @tailwind base;
 
-// @font-face {
-
-// }
+@font-face {
+    font-family: "Montserrat";
+    src: url("/assets/fonts/montserrat/Monserrat-Light.otf") format("opentype");
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("/assets/fonts/montserrat/Monserrat-Regular.otf") format("opentype");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("/assets/fonts/montserrat/Monserrat-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("/assets/fonts/montserrat/Monserrat-Black.otf") format("opentype");
+    font-style: normal;
+    font-weight: 900;
+}
 
 @tailwind components;
 

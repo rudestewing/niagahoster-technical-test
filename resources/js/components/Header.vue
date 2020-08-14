@@ -13,7 +13,7 @@
                     <a 
                         v-for="(menu, index) in menus" :key="index" 
                         :href="menu.path" 
-                        class="t-h-full t-flex t-items-center t-px-2 xl:t-px-3 hover:t-font-bold hover:t-text-gray-900 t-no-underline hover:t-no-underline t-overflow-auto">
+                        class="t-h-full t-flex t-items-center t-px-2 xl:t-px-3 hover:t-text-gray-900 t-no-underline hover:t-no-underline t-overflow-auto">
                         <span>
                             {{menu.title}}
                         </span>

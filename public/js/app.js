@@ -2016,7 +2016,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "t-min-h-full t-text-gray-700" },
+    { staticClass: "t-min-h-full t-text-gray-700 t-font-sans-serif" },
     [_c("LayoutDefault", { tag: "component" }, [_c("router-view")], 1)],
     1
   )
@@ -2139,7 +2139,7 @@ var render = function() {
                   {
                     key: index,
                     staticClass:
-                      "t-h-full t-flex t-items-center t-px-2 xl:t-px-3 hover:t-font-bold hover:t-text-gray-900 t-no-underline hover:t-no-underline t-overflow-auto",
+                      "t-h-full t-flex t-items-center t-px-2 xl:t-px-3 hover:t-text-gray-900 t-no-underline hover:t-no-underline t-overflow-auto",
                     attrs: { href: menu.path }
                   },
                   [
