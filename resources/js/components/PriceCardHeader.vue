@@ -53,7 +53,6 @@ export default {
         firstBlockPrice() {
             return (stringPriceInRupiah) => {
                 const items = stringPriceInRupiah.split('.');
-                console.log(items);
                 return items[0]
             }
         },

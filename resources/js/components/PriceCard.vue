@@ -19,16 +19,7 @@
             </ul>
         </div>
         <div class="">
-            <a 
-                href="#" 
-                class="t-px-5 t-py-2 t-border-2 t-border-gray-700 t-inline-block hover:t-no-underline hover:t-bg-blue-darken hover:t-text-white hover:t-border-blue-darken"
-                :class="{
-                    't-bg-blue-medium': price.isBestSeller,
-                    't-text-white': price.isBestSeller,
-                    't-border-none': price.isBestSeller,
-                }"
-                style="border-radius: 5rem;"
-            > 
+            <a href="#" class="button round" :class="{'primary': price.isBestSeller}">
                 {{choosePrice}}
             </a>
         </div>
@@ -47,7 +38,6 @@ export default {
     },
     computed: {
         choosePrice: function() {
-            console.log(this.price);
             return this.price.disc ? `Diskon ${this.price.disc}%` : `Pilih Sekarang`;
         }
     }

@@ -38,15 +38,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['price'],
@@ -55,7 +46,6 @@ __webpack_require__.r(__webpack_exports__);
   },
   computed: {
     choosePrice: function choosePrice() {
-      console.log(this.price);
       return this.price.disc ? "Diskon ".concat(this.price.disc, "%") : "Pilih Sekarang";
     }
   }
@@ -125,7 +115,6 @@ __webpack_require__.r(__webpack_exports__);
     firstBlockPrice: function firstBlockPrice() {
       return function (stringPriceInRupiah) {
         var items = stringPriceInRupiah.split('.');
-        console.log(items);
         return items[0];
       };
     },
@@ -608,13 +597,174 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     PriceList: _components_PriceList_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
   },
+  computed: {
+    chunkedPhpModules: function chunkedPhpModules() {
+      return []; // const chunked = this.lodash.chunk(this.phpModules, 4);
+      // Array.from(chunked).forEach(item => {
+      //     Array.from(item).forEach(phpModule => {
+      //     });
+      // });
+      // for (let index = 0; index < chunked.length; index++) {
+      // }
+      // return 
+    }
+  },
   data: function data() {
-    return {};
+    return {
+      phpModules: ['icePHP', 'apc', 'apcu', 'apm', 'ares', 'bcmath', 'bcompiler', 'big_int', 'bitset', 'bloomy', 'bz2_filter', 'clamav', 'coin_aceptor', 'crack', 'dba', 'http', 'huffman', 'idn', 'igbinary', 'imagick', 'imap', 'inclued', 'inotify', 'interbase', 'intl', 'ioncube_loader', 'ioncube_loader_4', 'jsmin', 'json', 'ldap', 'nd_pdo_mysql', 'oauth', 'oci8', 'odbc', 'opache', 'pdf', 'pdo', 'pdo_dblib', 'pdo_firebird', 'pdo_mysql', 'pdo_odbc', 'pdo_sqlite', 'pgsql', 'phalcon', 'stats', 'stem', 'stomp', 'suhosin', 'sybase_ct', 'sysvmsg', 'sysvsem', 'sysvshm', 'tidy', 'timezonedb', 'trader', 'transit', 'uploadprogress', 'uri_template', 'uuid']
+    };
+  },
+  mounted: function mounted() {
+    console.log(this.chunkedPhpModules);
   }
 });
 
@@ -1005,17 +1155,11 @@ var render = function() {
         _c(
           "a",
           {
-            staticClass:
-              "t-px-5 t-py-2 t-border-2 t-border-gray-700 t-inline-block hover:t-no-underline hover:t-bg-blue-darken hover:t-text-white hover:t-border-blue-darken",
-            class: {
-              "t-bg-blue-medium": _vm.price.isBestSeller,
-              "t-text-white": _vm.price.isBestSeller,
-              "t-border-none": _vm.price.isBestSeller
-            },
-            staticStyle: { "border-radius": "5rem" },
+            staticClass: "button round",
+            class: { primary: _vm.price.isBestSeller },
             attrs: { href: "#" }
           },
-          [_vm._v(" \n            " + _vm._s(_vm.choosePrice) + "\n        ")]
+          [_vm._v("\n            " + _vm._s(_vm.choosePrice) + "\n        ")]
         )
       ])
     ],
@@ -1846,6 +1990,385 @@ var render = function() {
                   ])
                 ]
               )
+            ])
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "app-wrapper-section-content",
+        [
+          _c("app-wrapper-container", [
+            _c("h1", { staticClass: "t-text-center t-mb-3" }, [
+              _vm._v(
+                "\n                Mendukung penuh Framework Laravel\n            "
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-12 col-md-8 col-lg-6 t-mb-4" }, [
+                _c("div", [
+                  _c(
+                    "div",
+                    { staticClass: "t-mb-4 t-pt-0 md:t-py-4 lg:t-pt-6" },
+                    [
+                      _c("h3", { staticClass: "t-mb-2" }, [
+                        _vm._v(
+                          "\n                                Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda.\n                            "
+                        )
+                      ])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "t-mb-3" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        { staticClass: "t-flex t-mb-4 t-items-center" },
+                        [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"
+                          }),
+                          _vm._v(" "),
+                          _c("span", [
+                            _vm._v(
+                              "\n                                        Install Laravel "
+                            ),
+                            _c("strong", [_vm._v("1 Klik")]),
+                            _vm._v(
+                              " dengan Softaculus Installer.\n                                    "
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        { staticClass: "t-flex t-mb-4 t-items-center" },
+                        [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"
+                          }),
+                          _vm._v(" "),
+                          _c("span", [
+                            _vm._v(
+                              "\n                                        Mendukung ekstensi "
+                            ),
+                            _c("strong", [
+                              _vm._v(" PHP MCrypt, phar, mbstring, json ")
+                            ]),
+                            _vm._v(" dan "),
+                            _c("strong", [_vm._v("fileinfo.")])
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        { staticClass: "t-flex t-mb-4 t-items-center" },
+                        [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"
+                          }),
+                          _vm._v(" "),
+                          _c("span", [
+                            _vm._v(
+                              "\n                                        Tersedia "
+                            ),
+                            _c("strong", [_vm._v(" Composer  ")]),
+                            _vm._v(" dan "),
+                            _c("strong", [_vm._v("SSH")]),
+                            _vm._v(
+                              " untuk menginstal packages pilihan Anda.\n                                    "
+                            )
+                          ])
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "t-text-xs" }, [
+                      _vm._v(
+                        "\n                                nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis\n                            "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "t-mb-3" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "button round primary",
+                        attrs: { href: "#" }
+                      },
+                      [_vm._v("Pilih Hosting Anda")]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "col-12 col-md-4 col-lg-6 t-flex t-items-center"
+                },
+                [
+                  _c("div", { staticClass: "t-w-full" }, [
+                    _c("img", {
+                      staticClass: "t-w-full",
+                      attrs: {
+                        src:
+                          "/assets/svg/illustration-banner-support-laravel-hosting.svg",
+                        alt: ""
+                      }
+                    })
+                  ])
+                ]
+              )
+            ])
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("app-border-horizontal"),
+      _vm._v(" "),
+      _c(
+        "app-wrapper-section-content",
+        [
+          _c("app-wrapper-container", [
+            _c("h1", { staticClass: "t-text-center t-mb-3" }, [
+              _vm._v(
+                "\n                Modul lengkap untuk menjalankan Aplikasi PHP Anda.\n            "
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "row" },
+              _vm._l(_vm.chunkedPhpModules, function(chunkedPhpModule, index) {
+                return _c(
+                  "div",
+                  { key: index, staticClass: "col-6 col-md-4" },
+                  [
+                    _vm._v(
+                      "\n                    " +
+                        _vm._s(chunkedPhpModule.length) +
+                        "\n                    "
+                    )
+                  ]
+                )
+              }),
+              0
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "t-mb-4 t-text-center" }, [
+              _c("a", { staticClass: "button round", attrs: { href: "#" } }, [
+                _vm._v("Selengkapnya")
+              ])
+            ])
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "app-wrapper-section-content",
+        { staticClass: "t-pb-0" },
+        [
+          _c("app-wrapper-container", [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-12 col-md-8 col-lg-6 t-mb-4" }, [
+                _c("div", [
+                  _c(
+                    "div",
+                    { staticClass: "t-mb-4 t-pt-0 md:t-py-4 lg:t-pt-6" },
+                    [
+                      _c("h1", { staticClass: "t-mb-2 t-text-3xl" }, [
+                        _vm._v(
+                          "\n                                Linux Hosting yang Stabil "
+                        ),
+                        _c("br"),
+                        _vm._v(
+                          " dengan Teknologi LIVE \n                            "
+                        )
+                      ])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "t-mb-3" }, [
+                    _c("p", { staticClass: "t-max-w-md t-text-justify" }, [
+                      _vm._v("\n                                SuperMicro "),
+                      _c("b", [_vm._v("Intel Xeon 24-Cores")]),
+                      _vm._v(" server dengan RAM "),
+                      _c("b", [_vm._v("128GB")]),
+                      _vm._v(" dan teknologi "),
+                      _c("b", [_vm._v("LIVE CloudLinux")]),
+                      _vm._v(
+                        " utuk stabilitas server Anda. Dilengkapi dengan "
+                      ),
+                      _c("b", [_vm._v("SSD")]),
+                      _vm._v(" untuk kecepatan "),
+                      _c("b", [_vm._v("MySQL")]),
+                      _vm._v(
+                        " dan caching, Apache load balancer berbasis LiteSpeed Technologies. "
+                      ),
+                      _c("b", [_vm._v("CageFS")]),
+                      _vm._v(" security, "),
+                      _c("b", [_vm._v("Raid-10")]),
+                      _vm._v(
+                        " protection dan auto backup untuk keamanan website Anda.\n                            "
+                      )
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "t-mb-3" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "button round primary",
+                        attrs: { href: "#" }
+                      },
+                      [_vm._v("Pilih Hosting Anda")]
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "col-12 col-md-4 col-lg-6 t-flex t-items-center"
+                },
+                [
+                  _c("div", { staticClass: "t-w-full" }, [
+                    _c("img", {
+                      staticClass: "t-w-full",
+                      attrs: { src: "/assets/images/support.png", alt: "" }
+                    })
+                  ])
+                ]
+              )
+            ])
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "app-wrapper-section-content",
+        { staticClass: "t-bg-gray-300 t-pt-0" },
+        [
+          _c("app-wrapper-container", [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-12 col-md-6" }, [
+                _c("span", [
+                  _vm._v(
+                    "\n                        Bagikan jika Anda menyukai halaman ini.\n                    "
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-12 col-md-" }, [
+                _c("ul", { staticClass: "t-flex t-justify-end" }, [
+                  _c("li", { staticClass: "t-flex" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "t-bg-blue-darken t-h-8 t-w-8 t-flex t-justify-center t-items-center t-rounded-lg t-mr-1",
+                        attrs: { href: "" }
+                      },
+                      [
+                        _c("i", {
+                          staticClass:
+                            "fab fa-facebook-f t-text-white t-text-lg"
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "t-h-full t-border-2 t-border-gray-400 t-rounded-md t-flex t-justify-center t-items-center t-px-2"
+                      },
+                      [
+                        _c("span", { staticClass: "t-text-xs" }, [
+                          _vm._v(
+                            "\n                                    80 K\n                                "
+                          )
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "t-flex" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "t-bg-blue-darken t-h-8 t-w-8 t-flex t-justify-center t-items-center t-rounded-lg t-mr-1",
+                        attrs: { href: "" }
+                      },
+                      [
+                        _c("i", {
+                          staticClass: "fab fa-twitter t-text-white t-text-lg"
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "t-h-full t-border-2 t-border-gray-400 t-rounded-md t-flex t-justify-center t-items-center t-px-2"
+                      },
+                      [
+                        _c("span", { staticClass: "t-text-xs" }, [
+                          _vm._v(
+                            "\n                                    450\n                                "
+                          )
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "t-flex" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "t-bg-blue-darken t-h-8 t-w-8 t-flex t-justify-center t-items-center t-rounded-lg t-mr-1",
+                        attrs: { href: "" }
+                      },
+                      [
+                        _c("i", {
+                          staticClass: "fab fa-google-f t-text-white t-text-lg"
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "t-h-full t-border-2 t-border-gray-400 t-rounded-md t-flex t-justify-center t-items-center t-px-2"
+                      },
+                      [
+                        _c("span", { staticClass: "t-text-xs" }, [
+                          _vm._v(
+                            "\n                                    450\n                                "
+                          )
+                        ])
+                      ]
+                    )
+                  ])
+                ])
+              ])
             ])
           ])
         ],

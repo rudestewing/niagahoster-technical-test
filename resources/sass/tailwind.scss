@@ -49,6 +49,25 @@ h3 {
     @apply text-lg;
 }
 
+
+.button {
+    @apply px-5 py-2 border-2 inline-block border-gray-800;
+    &.round {
+        border-radius: 5rem;
+    }
+    &:hover {
+        color: inherit;
+        @apply t-no-underline;
+        @apply t-bg-blue-medium t-text-white t-border-blue-medium;
+    }
+    &.primary {
+        @apply t-bg-blue-medium t-border-blue-medium text-white;
+        &:hover {
+            @apply t-bg-blue-darken t-border-blue-darken;
+        }
+    }
+}
+
 @tailwind components;
 
 @tailwind utilities;

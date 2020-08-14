@@ -262,6 +262,150 @@
                 </div>
             </app-wrapper-container>
         </app-wrapper-section-content>
+
+        <app-wrapper-section-content>
+            <app-wrapper-container>
+                <h1 class="t-text-center t-mb-3">
+                    Mendukung penuh Framework Laravel
+                </h1>
+                <div class="row">
+                    <div class="col-12 col-md-8 col-lg-6 t-mb-4">
+                        <div>
+                            <div class="t-mb-4 t-pt-0 md:t-py-4 lg:t-pt-6">
+                                <h3 class="t-mb-2">
+                                    Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda.
+                                </h3>
+                            </div>
+                            <div class="t-mb-3">
+                                <ul>
+                                    <li class="t-flex t-mb-4 t-items-center">
+                                        <i class="fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"></i>
+                                        <span>
+                                            Install Laravel <strong>1 Klik</strong> dengan Softaculus Installer.
+                                        </span>
+                                    </li>
+                                    <li class="t-flex t-mb-4 t-items-center">
+                                        <i class="fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"></i>
+                                        <span>
+                                            Mendukung ekstensi <strong> PHP MCrypt, phar, mbstring, json </strong> dan <strong>fileinfo.</strong>
+                                        </span>
+                                    </li>
+                                    <li class="t-flex t-mb-4 t-items-center">
+                                        <i class="fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"></i>
+                                        <span>
+                                            Tersedia <strong> Composer  </strong> dan <strong>SSH</strong> untuk menginstal packages pilihan Anda.
+                                        </span>
+                                    </li>
+                                </ul>
+                                <p class="t-text-xs">
+                                    nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis
+                                </p>
+                            </div>
+                            <div class="t-mb-3">
+                                <a href="#" class="button round primary">Pilih Hosting Anda</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-6 t-flex t-items-center">
+                        <div class="t-w-full">
+                            <img src="/assets/svg/illustration-banner-support-laravel-hosting.svg" alt="" class="t-w-full">
+                        </div>
+                    </div>
+                </div>
+            </app-wrapper-container>
+        </app-wrapper-section-content>
+        <app-border-horizontal></app-border-horizontal>
+        <app-wrapper-section-content>
+            <app-wrapper-container>
+                <h1 class="t-text-center t-mb-3">
+                    Modul lengkap untuk menjalankan Aplikasi PHP Anda.
+                </h1>
+                <div class="row">
+                    <div class="col-6 col-md-4" v-for="(chunkedPhpModule, index) in chunkedPhpModules" :key="index">
+                        {{chunkedPhpModule.length}}
+                        <!-- <div v-for="(phpModule, index) in chunkedPhpModule" :key="index">
+                        </div> -->
+                    </div>
+                </div>
+                <div class="t-mb-4 t-text-center">
+                    <a href="#" class="button round">Selengkapnya</a>
+                </div>
+            </app-wrapper-container>
+        </app-wrapper-section-content>
+
+        <app-wrapper-section-content class="t-pb-0">
+            <app-wrapper-container>
+                <div class="row">
+                    <div class="col-12 col-md-8 col-lg-6 t-mb-4">
+                        <div>
+                            <div class="t-mb-4 t-pt-0 md:t-py-4 lg:t-pt-6">
+                                <h1 class="t-mb-2 t-text-3xl">
+                                    Linux Hosting yang Stabil <br> dengan Teknologi LIVE 
+                                </h1>
+                            </div>
+                            <div class="t-mb-3">
+                                <p class="t-max-w-md t-text-justify">
+                                    SuperMicro <b>Intel Xeon 24-Cores</b> server dengan RAM <b>128GB</b> dan teknologi <b>LIVE CloudLinux</b> utuk stabilitas server Anda. Dilengkapi dengan <b>SSD</b> untuk kecepatan <b>MySQL</b> dan caching, Apache load balancer berbasis LiteSpeed Technologies. <b>CageFS</b> security, <b>Raid-10</b> protection dan auto backup untuk keamanan website Anda.
+                                </p>
+                            </div>
+                            <div class="t-mb-3">
+                                <a href="#" class="button round primary">Pilih Hosting Anda</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-6 t-flex t-items-center">
+                        <div class="t-w-full">
+                            <img src="/assets/images/support.png" alt="" class="t-w-full">
+                        </div>
+                    </div>
+                </div>
+            </app-wrapper-container>
+        </app-wrapper-section-content>
+        <app-wrapper-section-content class="t-bg-gray-300 t-pt-0">
+            <app-wrapper-container>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <span>
+                            Bagikan jika Anda menyukai halaman ini.
+                        </span>
+                    </div>
+                    <div class="col-12 col-md-">
+                        <ul class="t-flex t-justify-end">
+                            <li class="t-flex">
+                                <a href="" class="t-bg-blue-darken t-h-8 t-w-8 t-flex t-justify-center t-items-center t-rounded-lg t-mr-1">
+                                    <i class="fab fa-facebook-f t-text-white t-text-lg"></i>
+                                </a>
+                                <div class="t-h-full t-border-2 t-border-gray-400 t-rounded-md t-flex t-justify-center t-items-center t-px-2">
+                                    <span class="t-text-xs">
+                                        80 K
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="t-flex">
+                                <a href="" class="t-bg-blue-darken t-h-8 t-w-8 t-flex t-justify-center t-items-center t-rounded-lg t-mr-1">
+                                    <i class="fab fa-twitter t-text-white t-text-lg"></i>
+                                </a>
+                                <div class="t-h-full t-border-2 t-border-gray-400 t-rounded-md t-flex t-justify-center t-items-center t-px-2">
+                                    <span class="t-text-xs">
+                                        450
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="t-flex">
+                                <a href="" class="t-bg-blue-darken t-h-8 t-w-8 t-flex t-justify-center t-items-center t-rounded-lg t-mr-1">
+                                    <i class="fab fa-google-f t-text-white t-text-lg"></i>
+                                </a>
+                                <div class="t-h-full t-border-2 t-border-gray-400 t-rounded-md t-flex t-justify-center t-items-center t-px-2">
+                                    <span class="t-text-xs">
+                                        450
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </app-wrapper-container>
+        </app-wrapper-section-content>
     </div>
 </template>
 
@@ -272,10 +416,90 @@ export default {
     components: {
         PriceList,
     },
-    data() {
-        return {
-            
+    computed: {
+        chunkedPhpModules: function() {
+            return [];
+            // const chunked = this.lodash.chunk(this.phpModules, 4);
+            // Array.from(chunked).forEach(item => {
+            //     Array.from(item).forEach(phpModule => {
+
+            //     });
+            // });
+            // for (let index = 0; index < chunked.length; index++) {
+                
+            // }
+
+            // return 
+
         }
     },
+    data() {
+        return {
+            phpModules: [
+                'icePHP', 
+                'apc',
+                'apcu',
+                'apm',
+                'ares',
+                'bcmath',
+                'bcompiler',
+                'big_int',
+                'bitset',
+                'bloomy',
+                'bz2_filter',
+                'clamav',
+                'coin_aceptor',
+                'crack',
+                'dba',
+                'http',
+                'huffman',
+                'idn',
+                'igbinary',
+                'imagick',
+                'imap',
+                'inclued',
+                'inotify',
+                'interbase',
+                'intl',
+                'ioncube_loader',
+                'ioncube_loader_4',
+                'jsmin',
+                'json',
+                'ldap',
+                'nd_pdo_mysql',
+                'oauth',
+                'oci8',
+                'odbc',
+                'opache',
+                'pdf',
+                'pdo',
+                'pdo_dblib',
+                'pdo_firebird',
+                'pdo_mysql',
+                'pdo_odbc',
+                'pdo_sqlite',
+                'pgsql',
+                'phalcon',
+                'stats',
+                'stem',
+                'stomp',
+                'suhosin',
+                'sybase_ct',
+                'sysvmsg',
+                'sysvsem',
+                'sysvshm',
+                'tidy',
+                'timezonedb',
+                'trader',
+                'transit',
+                'uploadprogress',
+                'uri_template',
+                'uuid'
+            ]
+        }
+    },
+    mounted() {
+        console.log(this.chunkedPhpModules);
+    }
 }
 </script>
