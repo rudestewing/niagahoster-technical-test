@@ -25,6 +25,32 @@
     font-weight: 900;
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url("/assets/fonts/Roboto-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/assets/fonts/Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+
+h1 {
+    @apply text-2xl;
+}
+h2 {
+    @apply text-xl;
+}
+h3 {
+    @apply text-lg;
+}
+
 @tailwind components;
 
 @tailwind utilities;

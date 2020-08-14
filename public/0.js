@@ -17,6 +17,54 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {};
@@ -40,16 +88,148 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c(
+    "div",
+    [
+      _c(
+        "app-wrapper-section-content",
+        [
+          _c("app-wrapper-container", [
+            _c("div", { staticClass: "row" }, [
+              _c("div", { staticClass: "col-12 col-md-8 col-lg-6 t-mb-4" }, [
+                _c("div", [
+                  _c(
+                    "div",
+                    { staticClass: "t-mb-4 t-pt-0 md:t-py-4 lg:t-pt-6" },
+                    [
+                      _c(
+                        "h1",
+                        { staticClass: "t-font-bold lg:t-text-4xl t-mb-2" },
+                        [
+                          _vm._v(
+                            "\n                                PHP Hosting\n                            "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "h1",
+                        { staticClass: "t-font-light lg:t-text-4xl t-mb-2" },
+                        [
+                          _vm._v(
+                            "\n                                Cepat, handal, penuh dengan "
+                          ),
+                          _c("br"),
+                          _vm._v(
+                            " modul PHP yang Anda butuhkan\n                            "
+                          )
+                        ]
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        { staticClass: "t-flex t-mb-4 t-items-center" },
+                        [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"
+                          }),
+                          _vm._v(" "),
+                          _c("span", [
+                            _vm._v(
+                              "\n                                        Solusi PHP untuk performa query yang lebih cepat.\n                                    "
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        { staticClass: "t-flex t-mb-4 t-items-center" },
+                        [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"
+                          }),
+                          _vm._v(" "),
+                          _c("span", [
+                            _vm._v(
+                              "\n                                        Konsumsi memory yang lebih rendah.\n                                    "
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        { staticClass: "t-flex t-mb-4 t-items-center" },
+                        [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"
+                          }),
+                          _vm._v(" "),
+                          _c("span", [
+                            _vm._v(
+                              "\n                                        Support PHP 5.3, 5.4, 5.5, 5.6, 7.\n                                    "
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        { staticClass: "t-flex t-mb-4 t-items-center" },
+                        [
+                          _c("i", {
+                            staticClass:
+                              "fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"
+                          }),
+                          _vm._v(" "),
+                          _c("span", [
+                            _vm._v(
+                              "\n                                        Fitur enkripsi ionCube dan Zend Guard Loaders.\n                                    "
+                            )
+                          ])
+                        ]
+                      )
+                    ])
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "col-12 col-md-4 col-lg-6 t-flex t-items-center"
+                },
+                [
+                  _c("div", { staticClass: "t-w-full" }, [
+                    _c("img", {
+                      staticClass: "t-w-full",
+                      attrs: {
+                        src:
+                          "/assets/svg/illustration-banner-PHP-hosting-01.svg",
+                        alt: ""
+                      }
+                    })
+                  ])
+                ]
+              )
+            ])
+          ])
+        ],
+        1
+      )
+    ],
+    1
+  )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [_c("h1", { staticClass: " t-font-bold t-text-3xl" })])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 

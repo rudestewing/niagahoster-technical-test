@@ -3,7 +3,8 @@ module.exports = {
   purge: [],
   theme: {
     fontFamily: {
-      'sans-serif': ['Montserrat', 'Open Sans', 'sans-serif']
+      'sans-serif': ['Montserrat', 'Open Sans', 'sans-serif'],
+      
     },
     extend: {},
   },

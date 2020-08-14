@@ -630,6 +630,38 @@ video {
   font-weight: 900;
 }
 
+@font-face {
+  font-family: "Roboto";
+
+  src: url("/assets/fonts/Roboto-Medium.ttf") format("truetype");
+
+  font-style: normal;
+
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+
+  src: url("/assets/fonts/Roboto-Regular.ttf") format("truetype");
+
+  font-style: normal;
+
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
 .t-container {
   width: 100%;
 }
