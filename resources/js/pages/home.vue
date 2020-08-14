@@ -99,19 +99,165 @@
         </app-wrapper-section-content>
         <app-wrapper-section-content>
             <app-wrapper-container>
-                <h1 class="t-text-center t-mb-3">
+                <h1 class="t-text-center t-mb-5">
                     Powerful dengan Limit PHP yang lebih besar
                 </h1>
                 <div class="row t-justify-center">
-                    <div class="col-12 col-md-3 t-mb-3">
-                        <ul>
-                            <li class="t-flex">
-                                
-                            </li>
-                        </ul>
+                    <div class="col-12 col-md-4 t-mb-3">
+                        <div class="t-border t-border-gray-400 t-p-2 t-flex t-items-center even:t-bg-gray-400">
+                            <div class="col-1">
+                                <i class="fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"></i>
+                            </div>
+                            <div class="col-10 t-text-center">
+                                max execution time 300s
+                            </div>
+                        </div>
+                        <div class="t-border t-border-gray-400 t-p-2 t-flex t-items-center even:t-bg-gray-400">
+                            <div class="col-1">
+                                <i class="fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"></i>
+                            </div>
+                            <div class="col-10 t-text-center">
+                                max execution time 300s
+                            </div>
+                        </div>
+                        <div class="t-border t-border-gray-400 t-p-2 t-flex t-items-center even:t-bg-gray-400">
+                            <div class="col-1">
+                                <i class="fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"></i>
+                            </div>
+                            <div class="col-10 t-text-center">
+                                max execution time 300s
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-3">
+                    <div class="col-12 col-md-4 t-mb-3">
+                        <div class="t-border t-border-gray-400 t-p-2 t-flex t-items-center even:t-bg-gray-400">
+                            <div class="col-1">
+                                <i class="fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"></i>
+                            </div>
+                            <div class="col-10 t-text-center">
+                                max execution time 300s
+                            </div>
+                        </div>
+                        <div class="t-border t-border-gray-400 t-p-2 t-flex t-items-center even:t-bg-gray-400">
+                            <div class="col-1">
+                                <i class="fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"></i>
+                            </div>
+                            <div class="col-10 t-text-center">
+                                max execution time 300s
+                            </div>
+                        </div>
+                        <div class="t-border t-border-gray-400 t-p-2 t-flex t-items-center even:t-bg-gray-400">
+                            <div class="col-1">
+                                <i class="fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"></i>
+                            </div>
+                            <div class="col-10 t-text-center">
+                                max execution time 300s
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </app-wrapper-container>
+        </app-wrapper-section-content>
 
+        <app-wrapper-section-content>
+            <app-wrapper-container>
+                <h1 class="t-text-center t-mb-5">
+                    Semua paket hosting sudah termasuk
+                </h1>
+                <div class="row t-justify-center">
+                    <div class="col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8">
+                        <div class="t-text-center">
+                            <div class="t-h-32 t-flex t-items-center t-justify-center">
+                                <img src="/assets/svg/icon-PHP-Hosting_PHP Semua Versi.svg" alt="" class="t-h-24">
+                            </div>
+                            <div>
+                                <h3 class="t-font-bold">
+                                    PHP Semua Versi
+                                </h3>
+                                <p class="t-max-w-xs t-mx-auto">
+                                    Pilih mulai dari versi PHP 5.3 s/d PHP 7 
+                                    Ubah sesuka Anda!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8">
+                        <div class="t-text-center">
+                            <div class="t-h-32 t-flex t-items-center t-justify-center">
+                                <img src="/assets/svg/icon-PHP-Hosting_My-SQL.svg" alt="" class="t-h-24">
+                            </div>
+                            <div>
+                                <h3 class="t-font-bold">
+                                    MySQL Versi 5.8
+                                </h3>
+                                <p class="t-max-w-xs t-mx-auto">
+                                    Nikmati MySQL versi terbaru tercepat dan 
+                                    kaya akan fitur
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8">
+                        <div class="t-text-center">
+                            <div class="t-h-32 t-flex t-items-center t-justify-center">
+                                <img src="/assets/svg/icon-PHP-Hosting_CPanel.svg" alt="" class="t-h-24">
+                            </div>
+                            <div>
+                                <h3 class="t-font-bold">
+                                    Panel Hosting CPanel
+                                </h3>
+                                <p class="t-max-w-xs t-mx-auto">
+                                    Kelola website dengan panel canggih 
+                                    yang familiar dengan Anda
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8">
+                        <div class="t-text-center">
+                            <div class="t-h-32 t-flex t-items-center t-justify-center">
+                                <img src="/assets/svg/icon-PHP-Hosting_garansi-uptime.svg" alt="" class="t-h-24">
+                            </div>
+                            <div>
+                                <h3 class="t-font-bold">
+                                    Garansi Uptime 99.0%
+                                </h3>
+                                <p class="t-max-w-xs t-mx-auto">
+                                    Data Center yang mendukung kelangsungan 
+                                    Website Anda
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8">
+                        <div class="t-text-center">
+                            <div class="t-h-32 t-flex t-items-center t-justify-center">
+                                <img src="/assets/svg/icon-PHP-Hosting_InnoDB.svg" alt="" class="t-h-24">
+                            </div>
+                            <div>
+                                <h3 class="t-font-bold">
+                                    Database InnoDB Unlimited
+                                </h3>
+                                <p class="t-max-w-xs t-mx-auto">
+                                    Jumlah dan ukuran database yang tumbuh sesuai dengan kebutuhan Anda
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8">
+                        <div class="t-text-center">
+                            <div class="t-h-32 t-flex t-items-center t-justify-center">
+                                <img src="/assets/svg/icon-PHP-Hosting_My-SQL-remote.svg" alt="" class="t-h-24">
+                            </div>
+                            <div>
+                                <h3 class="t-font-bold">
+                                    Wildcard Remote MySQL
+                                </h3>
+                                <p class="t-max-w-xs t-mx-auto">
+                                    Mendukung s/d 25 max_user_connections dan 100 max_connections
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </app-wrapper-container>

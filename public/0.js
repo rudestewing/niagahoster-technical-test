@@ -462,6 +462,152 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -1287,18 +1433,419 @@ var render = function() {
         "app-wrapper-section-content",
         [
           _c("app-wrapper-container", [
-            _c("h1", { staticClass: "t-text-center t-mb-3" }, [
+            _c("h1", { staticClass: "t-text-center t-mb-5" }, [
               _vm._v(
                 "\n                Powerful dengan Limit PHP yang lebih besar\n            "
               )
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "row t-justify-center" }, [
-              _c("div", { staticClass: "col-12 col-md-3 t-mb-3" }, [
-                _c("ul", [_c("li", { staticClass: "t-flex" })])
+              _c("div", { staticClass: "col-12 col-md-4 t-mb-3" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "t-border t-border-gray-400 t-p-2 t-flex t-items-center even:t-bg-gray-400"
+                  },
+                  [
+                    _c("div", { staticClass: "col-1" }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-10 t-text-center" }, [
+                      _vm._v(
+                        "\n                            max execution time 300s\n                        "
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "t-border t-border-gray-400 t-p-2 t-flex t-items-center even:t-bg-gray-400"
+                  },
+                  [
+                    _c("div", { staticClass: "col-1" }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-10 t-text-center" }, [
+                      _vm._v(
+                        "\n                            max execution time 300s\n                        "
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "t-border t-border-gray-400 t-p-2 t-flex t-items-center even:t-bg-gray-400"
+                  },
+                  [
+                    _c("div", { staticClass: "col-1" }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-10 t-text-center" }, [
+                      _vm._v(
+                        "\n                            max execution time 300s\n                        "
+                      )
+                    ])
+                  ]
+                )
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "col-12 col-md-3" })
+              _c("div", { staticClass: "col-12 col-md-4 t-mb-3" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "t-border t-border-gray-400 t-p-2 t-flex t-items-center even:t-bg-gray-400"
+                  },
+                  [
+                    _c("div", { staticClass: "col-1" }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-10 t-text-center" }, [
+                      _vm._v(
+                        "\n                            max execution time 300s\n                        "
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "t-border t-border-gray-400 t-p-2 t-flex t-items-center even:t-bg-gray-400"
+                  },
+                  [
+                    _c("div", { staticClass: "col-1" }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-10 t-text-center" }, [
+                      _vm._v(
+                        "\n                            max execution time 300s\n                        "
+                      )
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "t-border t-border-gray-400 t-p-2 t-flex t-items-center even:t-bg-gray-400"
+                  },
+                  [
+                    _c("div", { staticClass: "col-1" }, [
+                      _c("i", {
+                        staticClass:
+                          "fas fa-check-circle t-mr-2 t-text-xl t-text-green-600"
+                      })
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-10 t-text-center" }, [
+                      _vm._v(
+                        "\n                            max execution time 300s\n                        "
+                      )
+                    ])
+                  ]
+                )
+              ])
+            ])
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "app-wrapper-section-content",
+        [
+          _c("app-wrapper-container", [
+            _c("h1", { staticClass: "t-text-center t-mb-5" }, [
+              _vm._v(
+                "\n                Semua paket hosting sudah termasuk\n            "
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row t-justify-center" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8"
+                },
+                [
+                  _c("div", { staticClass: "t-text-center" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "t-h-32 t-flex t-items-center t-justify-center"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "t-h-24",
+                          attrs: {
+                            src:
+                              "/assets/svg/icon-PHP-Hosting_PHP Semua Versi.svg",
+                            alt: ""
+                          }
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("div", [
+                      _c("h3", { staticClass: "t-font-bold" }, [
+                        _vm._v(
+                          "\n                                PHP Semua Versi\n                            "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "t-max-w-xs t-mx-auto" }, [
+                        _vm._v(
+                          "\n                                Pilih mulai dari versi PHP 5.3 s/d PHP 7 \n                                Ubah sesuka Anda!\n                            "
+                        )
+                      ])
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8"
+                },
+                [
+                  _c("div", { staticClass: "t-text-center" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "t-h-32 t-flex t-items-center t-justify-center"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "t-h-24",
+                          attrs: {
+                            src: "/assets/svg/icon-PHP-Hosting_My-SQL.svg",
+                            alt: ""
+                          }
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("div", [
+                      _c("h3", { staticClass: "t-font-bold" }, [
+                        _vm._v(
+                          "\n                                MySQL Versi 5.8\n                            "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "t-max-w-xs t-mx-auto" }, [
+                        _vm._v(
+                          "\n                                Nikmati MySQL versi terbaru tercepat dan \n                                kaya akan fitur\n                            "
+                        )
+                      ])
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8"
+                },
+                [
+                  _c("div", { staticClass: "t-text-center" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "t-h-32 t-flex t-items-center t-justify-center"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "t-h-24",
+                          attrs: {
+                            src: "/assets/svg/icon-PHP-Hosting_CPanel.svg",
+                            alt: ""
+                          }
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("div", [
+                      _c("h3", { staticClass: "t-font-bold" }, [
+                        _vm._v(
+                          "\n                                Panel Hosting CPanel\n                            "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "t-max-w-xs t-mx-auto" }, [
+                        _vm._v(
+                          "\n                                Kelola website dengan panel canggih \n                                yang familiar dengan Anda\n                            "
+                        )
+                      ])
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8"
+                },
+                [
+                  _c("div", { staticClass: "t-text-center" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "t-h-32 t-flex t-items-center t-justify-center"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "t-h-24",
+                          attrs: {
+                            src:
+                              "/assets/svg/icon-PHP-Hosting_garansi-uptime.svg",
+                            alt: ""
+                          }
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("div", [
+                      _c("h3", { staticClass: "t-font-bold" }, [
+                        _vm._v(
+                          "\n                                Garansi Uptime 99.0%\n                            "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "t-max-w-xs t-mx-auto" }, [
+                        _vm._v(
+                          "\n                                Data Center yang mendukung kelangsungan \n                                Website Anda\n                            "
+                        )
+                      ])
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8"
+                },
+                [
+                  _c("div", { staticClass: "t-text-center" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "t-h-32 t-flex t-items-center t-justify-center"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "t-h-24",
+                          attrs: {
+                            src: "/assets/svg/icon-PHP-Hosting_InnoDB.svg",
+                            alt: ""
+                          }
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("div", [
+                      _c("h3", { staticClass: "t-font-bold" }, [
+                        _vm._v(
+                          "\n                                Database InnoDB Unlimited\n                            "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "t-max-w-xs t-mx-auto" }, [
+                        _vm._v(
+                          "\n                                Jumlah dan ukuran database yang tumbuh sesuai dengan kebutuhan Anda\n                            "
+                        )
+                      ])
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8"
+                },
+                [
+                  _c("div", { staticClass: "t-text-center" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "t-h-32 t-flex t-items-center t-justify-center"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "t-h-24",
+                          attrs: {
+                            src:
+                              "/assets/svg/icon-PHP-Hosting_My-SQL-remote.svg",
+                            alt: ""
+                          }
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("div", [
+                      _c("h3", { staticClass: "t-font-bold" }, [
+                        _vm._v(
+                          "\n                                Wildcard Remote MySQL\n                            "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "t-max-w-xs t-mx-auto" }, [
+                        _vm._v(
+                          "\n                                Mendukung s/d 25 max_user_connections dan 100 max_connections\n                            "
+                        )
+                      ])
+                    ])
+                  ])
+                ]
+              )
             ])
           ])
         ],
