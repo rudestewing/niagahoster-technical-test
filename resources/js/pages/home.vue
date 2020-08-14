@@ -57,7 +57,7 @@
                 <div class="row t-justify-center t-max-w-screen-md t-mx-auto">
                     <div class="col-6 col-md-4 t-text-center">
                         <div class="t-h-48 t-flex t-justify-center t-items-center">
-                            <img src="/assets/svg/icon-zenguard.svg">
+                            <img src="/assets/svg/icon-zenguard.svg" class="t-w-32">
                         </div>
                         <span>
                             PHP Zend Guard Loader
@@ -65,7 +65,7 @@
                     </div>
                     <div class="col-6 col-md-4 t-text-center">
                         <div class="t-h-48 t-flex t-justify-center t-items-center">
-                            <img src="/assets/svg/icon-composer.svg">
+                            <img src="/assets/svg/icon-composer.svg" class="t-w-32">
                         </div>
                         <span>
                             PHP Composer
@@ -73,7 +73,7 @@
                     </div>
                     <div class="col-6 col-md-4 t-text-center">
                         <div class="t-h-48 t-flex t-justify-center t-items-center">
-                            <img src="/assets/svg/icon-ioncube.svg">
+                            <img src="/assets/svg/icon-ioncube.svg" class="t-w-32">
                         </div>
                         <span>
                             PHP ionCube Loader
@@ -95,6 +95,25 @@
         <app-wrapper-section-content>
             <app-wrapper-container>
                 <PriceList />
+            </app-wrapper-container>
+        </app-wrapper-section-content>
+        <app-wrapper-section-content>
+            <app-wrapper-container>
+                <h1 class="t-text-center t-mb-3">
+                    Powerful dengan Limit PHP yang lebih besar
+                </h1>
+                <div class="row t-justify-center">
+                    <div class="col-12 col-md-3 t-mb-3">
+                        <ul>
+                            <li class="t-flex">
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3">
+
+                    </div>
+                </div>
             </app-wrapper-container>
         </app-wrapper-section-content>
     </div>

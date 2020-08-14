@@ -9,7 +9,7 @@
                 <li class="t-flex t-items-center">
                     <a href="/" class="t-px-3 t-flex t-items-center">
                         <i class="fas fa-phone-alt t-mr-1"></i>
-                        <span class="t-font-semibold">
+                        <span>
                             0274-5305505
                         </span>
                     </a>                        
@@ -17,7 +17,7 @@
                 <li class="t-flex t-items-center">
                     <a href="/" class="t-px-3 t-flex t-items-center">
                         <i class="fas fa-comment-alt t-mr-1"></i>
-                        <span class="t-font-semibold">
+                        <span>
                             Live Chat
                         </span>
                     </a>
@@ -25,7 +25,7 @@
                 <li class="t-flex t-items-center">
                     <a href="/" class="t-px-3 t-flex t-items-center">
                         <i class="fas fa-user-circle t-mr-1 t-text-lg"></i>
-                        <span class="t-font-semibold">
+                        <span>
                             Live Chat
                         </span>
                     </a>

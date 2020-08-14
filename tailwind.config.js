@@ -4,9 +4,15 @@ module.exports = {
   theme: {
     fontFamily: {
       'sans-serif': ['Montserrat', 'Open Sans', 'sans-serif'],
-      
     },
-    extend: {},
+    extend: {
+      colors: {
+        blue: {
+          medium: '#2C8FEE',
+          darken: '#247FDF',
+        }
+      },
+    },
   },
   variants: {},
   plugins: [],
