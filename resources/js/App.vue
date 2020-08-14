@@ -1,5 +1,5 @@
 <template>
-    <div class="t-min-h-full t-text-gray-700 t-font-sans-serif">
+    <div class="t-min-h-full t-text-gray-800 t-font-sans-serif">
         <component :is="`LayoutDefault`" >
             <router-view> </router-view>
         </component>

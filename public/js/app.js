@@ -2016,7 +2016,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "t-min-h-full t-text-gray-700 t-font-sans-serif" },
+    { staticClass: "t-min-h-full t-text-gray-800 t-font-sans-serif" },
     [_c("LayoutDefault", { tag: "component" }, [_c("router-view")], 1)],
     1
   )
