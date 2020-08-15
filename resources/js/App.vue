@@ -20,10 +20,3 @@ export default {
     },
 }
 </script>
-
-<style lang="scss">
-    html, body {
-        font-size: 1rem;
-        height: 100%;
-    }
-</style>

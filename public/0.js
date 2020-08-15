@@ -129,11 +129,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['price'],
@@ -805,7 +800,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".stack-top[data-v-1122a56a] {\n  /* adjust the below to control the shape */\n  --d:8px;\n  --w:180px;\n  /**/\n  position: absolute;\n  top: 0;\n  right: 0;\n  transform: translate(29.29%, -100%) rotate(45deg);\n  /* 29.29% = 100%*(1 - cos(45deg)) */\n  color: #fff;\n  text-align: center;\n  width: var(--w);\n  transform-origin: bottom left;\n  padding: 8px 0 calc(var(--d) + 8px);\n  --bg-opacity:1;\n  background-color:#52B35A;\n  background-color:rgba(82, 179, 90, var(--bg-opacity));\n  font-weight:700;\n  -webkit-clip-path: polygon(0 100%, 0 calc(100% - var(--d)), 50% calc(100% - var(--d) - var(--w)/2), 100% calc(100% - var(--d)), 100% 100%, calc(100% - var(--d)) calc(100% - var(--d)), var(--d) calc(100% - var(--d)));\n          clip-path: polygon(0 100%, 0 calc(100% - var(--d)), 50% calc(100% - var(--d) - var(--w)/2), 100% calc(100% - var(--d)), 100% 100%, calc(100% - var(--d)) calc(100% - var(--d)), var(--d) calc(100% - var(--d)));\n  left: 0;\n  right: auto;\n  transform: translate(-29.29%, -100%) rotate(-45deg);\n  transform-origin: bottom right;\n  box-shadow:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);\n}\n.best-seller[data-v-1122a56a] {\n  position:absolute;\n  font-weight:700;\n  top: 0;\n  left: 0;\n  transform: rotate(-45deg);\n}\n.best-seller .best-seller-ribon[data-v-1122a56a] {\n  position:relative;\n  --text-opacity:1;\n  color:#fff;\n  color:rgba(255, 255, 255, var(--text-opacity));\n  z-index: 1;\n}\n.best-seller .best-seller-ribon[data-v-1122a56a]:before {\n  content: \"\";\n  --bg-opacity:1;\n  background-color:#52B35A;\n  background-color:rgba(82, 179, 90, var(--bg-opacity));\n  display:block;\n  position:absolute;\n  width: 180px;\n  height: 100px;\n  transform: perspective(240px) rotateX(60deg);\n  top: 0;\n  left: 0;\n  z-index: -1;\n  margin-top: -30px;\n}", ""]);
+exports.push([module.i, ".stack-top[data-v-1122a56a] {\n  /* adjust the below to control the shape */\n  --d:8px;\n  --w:180px;\n  /**/\n  position: absolute;\n  top: 0;\n  right: 0;\n  transform: translate(29.29%, -100%) rotate(45deg);\n  /* 29.29% = 100%*(1 - cos(45deg)) */\n  color: #fff;\n  text-align: center;\n  width: var(--w);\n  transform-origin: bottom left;\n  padding: 8px 0 calc(var(--d) + 8px);\n  --bg-opacity:1;\n  background-color:#52B35A;\n  background-color:rgba(82, 179, 90, var(--bg-opacity));\n  font-weight:700;\n  -webkit-clip-path: polygon(0 100%, 0 calc(100% - var(--d)), 50% calc(100% - var(--d) - var(--w)/2), 100% calc(100% - var(--d)), 100% 100%, calc(100% - var(--d)) calc(100% - var(--d)), var(--d) calc(100% - var(--d)));\n          clip-path: polygon(0 100%, 0 calc(100% - var(--d)), 50% calc(100% - var(--d) - var(--w)/2), 100% calc(100% - var(--d)), 100% 100%, calc(100% - var(--d)) calc(100% - var(--d)), var(--d) calc(100% - var(--d)));\n  left: 0;\n  right: auto;\n  transform: translate(-29.29%, -100%) rotate(-45deg);\n  transform-origin: bottom right;\n  box-shadow:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);\n}", ""]);
 
 // exports
 

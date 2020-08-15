@@ -69,22 +69,15 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-3">
+                        <div class="col-12 col-md-8 col-lg-3">
                             <h3 class="t-font-bold t-mb-5 t-text-gray-600 t-mt-3 t-h-8"> NEWSLETTER </h3>
-                            <div 
-                                class="t-flex t-content-between t-items-stretch t-bg-white t-text-gray-700 t-outline-none t-border-white"
-                                style="border-radius: 5rem; border-width: 4px;"
-                                >
-                                <input 
-                                    type="text" 
-                                    class="t-p-4 t-bg-white t-text-gray-700 t-outline-none t-border-none"
-                                    placeholder="Email"
-                                    
-                                    style="border-radius: 5rem;"
-                                >
-                                <!-- <button class="button round t-block t-h-full" @click="handleSubmit">
-                                    hello
-                                </button> -->
+                            <div class="input-group mb-3 t-bg-white t-border t-border-white t-items-center" style="border-radius: 5rem; border-width: 4px">
+                                <input type="text" class="form-control t-bg-white t-outline-none focus:t-outline-none focus:t-border-none t-border-none t-p-2 focus:t-shadow-none" style="border-radius: 5rem;" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append t-pl-1">
+                                    <button @click="() => {}" class="button round primary">
+                                        Berlangganan
+                                    </button>
+                                </div>
                             </div>
                         </div>
                         <div class="col-12 col-md-6 col-lg-3">
@@ -309,3 +302,14 @@ export default {
     
 }
 </script>
+
+<style lang="scss" scoped>
+// .t-input-group {
+//     @apply t-flex t-h-6 t-border-white t-overflow-hidden t-bg-white;
+//     border-radius: 5rem; 
+//     border-width: 4px;
+//     input {
+//         @apply t-px-2 t-text-gray-800 t-bg-white t-outline-none t-border-none;
+//     }
+// }
+</style>

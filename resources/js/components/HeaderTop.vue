@@ -45,7 +45,6 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-
     .bookmark {
         @apply t-bg-blue-medium t-text-white t-absolute t-flex t-items-center t-justify-center;
         top: 0;

@@ -4,11 +4,6 @@
             <div class="stack-top">
                 BEST SELLER!
             </div>
-            <!-- <div class="best-seller">
-                <div class="best-seller-ribon">
-                    BEST SELLER!
-                </div>
-            </div> -->
             <div>
                 <h2 class="t-font-bold t-py-3">
                     {{price.name}}
@@ -130,35 +125,5 @@ export default {
     transform-origin: bottom right;
     
     @apply t-shadow-lg;
-}
-
-.best-seller {
-    @apply t-absolute t-font-bold;
-    top: 0;
-    left: 0;
-    transform: rotate(-45deg);
-    .best-seller-ribon {
-        @apply t-relative t-text-white;
-        z-index: 1;
-        &:before {
-            content: '';
-            @apply t-bg-green-medium t-block t-absolute;
-            width: 180px;
-            height: 100px;
-            transform: perspective(240px) rotateX(60deg);
-            top: 0;
-            left: 0;
-            z-index: -1;
-            margin-top: -30px;
-            // border: 1em solid transparent;
-            // border-right-color: #000;
-            // border-bottom-color: #000;
-            // width: 0px;
-            // height: 0px;
-            // position: absolute;
-            // right: 100%;
-            // top: 0;
-        }
-    }
 }
 </style>
