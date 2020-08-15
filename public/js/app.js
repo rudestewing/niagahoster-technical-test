@@ -893,6 +893,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -1042,7 +1046,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "a[data-v-581e34a6] {\n  text-decoration: none;\n}\na[data-v-581e34a6]:hover {\n  text-decoration: none;\n  color: inherit;\n}", ""]);
+exports.push([module.i, ".bookmark[data-v-581e34a6] {\n  --bg-opacity: 1;\n  background-color: #2C8FEE;\n  background-color: rgba(44, 143, 238, var(--bg-opacity));\n  --text-opacity: 1;\n  color: #fff;\n  color: rgba(255, 255, 255, var(--text-opacity));\n  position: absolute;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  top: 0;\n  left: 0;\n  width: 30px;\n  height: 20px;\n}\n.bookmark[data-v-581e34a6]:after {\n  content: \"\";\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 0;\n  height: 0;\n  --border-opacity: 1;\n  border-color: #2C8FEE;\n  border-color: rgba(44, 143, 238, var(--border-opacity));\n  border-top-width: 15px;\n  border-top-style: solid;\n  border-top-color: transparent;\n  border-bottom-width: 15px;\n  border-bottom-style: solid;\n  border-bottom-color: transparent;\n  border-left-width: 15px;\n  border-left-style: solid;\n  margin-bottom: -15px;\n  z-index: 1;\n}\n.bookmark[data-v-581e34a6]:after {\n  content: \"\";\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  width: 0;\n  height: 0;\n  --border-opacity: 1;\n  border-color: #2C8FEE;\n  border-color: rgba(44, 143, 238, var(--border-opacity));\n  border-top-width: 15px;\n  border-top-style: solid;\n  border-top-color: transparent;\n  border-bottom-width: 15px;\n  border-bottom-style: solid;\n  border-bottom-color: transparent;\n  border-right-width: 15px;\n  border-right-style: solid;\n  margin-bottom: -15px;\n  z-index: 1;\n}\na[data-v-581e34a6] {\n  text-decoration: none;\n}\na[data-v-581e34a6]:hover {\n  text-decoration: none;\n  color: inherit;\n}", ""]);
 
 // exports
 
@@ -20110,99 +20114,115 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "t-py-3", attrs: { id: "header-top" } }, [
-      _c(
-        "div",
-        {
-          staticClass:
-            "t-block md:t-flex md:t-flex-wrap md:t-justify-between t-text-xs"
-        },
-        [
-          _c(
-            "a",
-            {
-              staticClass:
-                "t-block t-w-full md:t-w-auto t-text-center md:t-text-left t-mb-2 lg:t-mb-0",
-              attrs: { href: "/" }
-            },
-            [
-              _c("i", { staticClass: "fas fa-tag t-mr-2" }),
-              _vm._v(
-                "\n            Gratis Ebook 9 Cara Cerdas Menggunakan domain\n        "
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "ul",
-            {
-              staticClass:
-                "t-flex t-flex-wrap t-justify-center md:t-justify-end"
-            },
-            [
-              _c("li", { staticClass: "t-flex t-items-center" }, [
+    return _c(
+      "div",
+      { staticClass: "t-relative", attrs: { id: "header-top" } },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "t-block md:t-flex t-h-full md:t-flex-wrap md:t-justify-between t-text-xs"
+          },
+          [
+            _c(
+              "a",
+              {
+                staticClass:
+                  "t-block t-w-full t-h-full md:t-w-auto t-text-center md:t-text-left t-mb-2 lg:t-mb-0 t-py-3 t-relative",
+                attrs: { href: "/" }
+              },
+              [
+                _c("span", { staticClass: "bookmark" }, [
+                  _c("i", { staticClass: "fas fa-tag" })
+                ]),
+                _vm._v(" "),
                 _c(
-                  "a",
+                  "span",
                   {
-                    staticClass: "t-px-3 t-flex t-items-center",
-                    attrs: { href: "/" }
+                    staticClass: "t-py-3",
+                    staticStyle: { "margin-left": "35px" }
                   },
                   [
-                    _c("i", { staticClass: "fas fa-phone-alt t-mr-1" }),
-                    _vm._v(" "),
-                    _c("span", [
-                      _vm._v(
-                        "\n                        0274-5305505\n                    "
-                      )
-                    ])
+                    _vm._v(
+                      "\n                Gratis Ebook 9 Cara Cerdas Menggunakan domain\n            "
+                    )
                   ]
                 )
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "t-flex t-items-center" }, [
-                _c(
-                  "a",
-                  {
-                    staticClass: "t-px-3 t-flex t-items-center",
-                    attrs: { href: "/" }
-                  },
-                  [
-                    _c("i", { staticClass: "fas fa-comment-alt t-mr-1" }),
-                    _vm._v(" "),
-                    _c("span", [
-                      _vm._v(
-                        "\n                        Live Chat\n                    "
-                      )
-                    ])
-                  ]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "t-flex t-items-center" }, [
-                _c(
-                  "a",
-                  {
-                    staticClass: "t-px-3 t-flex t-items-center",
-                    attrs: { href: "/" }
-                  },
-                  [
-                    _c("i", {
-                      staticClass: "fas fa-user-circle t-mr-1 t-text-lg"
-                    }),
-                    _vm._v(" "),
-                    _c("span", [
-                      _vm._v(
-                        "\n                        Live Chat\n                    "
-                      )
-                    ])
-                  ]
-                )
-              ])
-            ]
-          )
-        ]
-      )
-    ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "ul",
+              {
+                staticClass:
+                  "t-flex t-flex-wrap t-justify-center md:t-justify-end t-py-3"
+              },
+              [
+                _c("li", { staticClass: "t-flex t-items-center" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "t-px-3 t-flex t-items-center",
+                      attrs: { href: "/" }
+                    },
+                    [
+                      _c("i", { staticClass: "fas fa-phone-alt t-mr-1" }),
+                      _vm._v(" "),
+                      _c("span", [
+                        _vm._v(
+                          "\n                        0274-5305505\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "t-flex t-items-center" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "t-px-3 t-flex t-items-center",
+                      attrs: { href: "/" }
+                    },
+                    [
+                      _c("i", { staticClass: "fas fa-comment-alt t-mr-1" }),
+                      _vm._v(" "),
+                      _c("span", [
+                        _vm._v(
+                          "\n                        Live Chat\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "t-flex t-items-center" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "t-px-3 t-flex t-items-center",
+                      attrs: { href: "/" }
+                    },
+                    [
+                      _c("i", {
+                        staticClass: "fas fa-user-circle t-mr-1 t-text-lg"
+                      }),
+                      _vm._v(" "),
+                      _c("span", [
+                        _vm._v(
+                          "\n                        Live Chat\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ])
+              ]
+            )
+          ]
+        )
+      ]
+    )
   }
 ]
 render._withStripped = true
