@@ -2,7 +2,6 @@
     <div id="footer">
         <FooterTop />
         <div>
-            Footer !!
         </div>
     </div>
 </template>

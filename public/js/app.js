@@ -461,7 +461,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -480,6 +479,25 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -19252,11 +19270,7 @@ var render = function() {
   return _c(
     "div",
     { attrs: { id: "footer" } },
-    [
-      _c("FooterTop"),
-      _vm._v(" "),
-      _c("div", [_vm._v("\n        Footer !!\n    ")])
-    ],
+    [_c("FooterTop"), _vm._v(" "), _c("div")],
     1
   )
 }
@@ -19282,9 +19296,80 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { attrs: { id: "footer-top" } }, [
-    _vm._v("\n    Footer top\n")
-  ])
+  return _c(
+    "div",
+    { attrs: { id: "footer-top" } },
+    [
+      _c(
+        "app-wrapper-section-content",
+        { staticClass: "t-bg-blue-medium" },
+        [
+          _c("app-wrapper-container", [
+            _c(
+              "div",
+              { staticClass: "t-block lg:t-flex t-flex-wrap t-justify-center" },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "t-flex t-items-center t-justify-center t-mb-3 lg:t-mb-0"
+                  },
+                  [
+                    _c(
+                      "h1",
+                      {
+                        staticClass: "t-text-white t-font-light t-text-center"
+                      },
+                      [
+                        _vm._v("\n                        Perlu "),
+                        _c("b", [_vm._v("BANTUAN?")]),
+                        _vm._v(" Hubungi Kami: "),
+                        _c("b", [_vm._v(" 0274-5305505")])
+                      ]
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "t-flex t-justify-center t-items-center" },
+                  [
+                    _c("div", {
+                      staticClass:
+                        "t-hidden lg:t-block t-h-8 t-border-l t-border-white t-mx-8"
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        staticClass:
+                          "button round t-border-white t-bg-transparent t-text-white",
+                        attrs: { href: "" }
+                      },
+                      [
+                        _c("i", {
+                          staticClass: "fas fa-comments t-text-2xl t-mr-2"
+                        }),
+                        _vm._v(" "),
+                        _c("span", [
+                          _vm._v(
+                            "\n                            Live Chat\n                        "
+                          )
+                        ])
+                      ]
+                    )
+                  ]
+                )
+              ]
+            )
+          ])
+        ],
+        1
+      )
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -19673,7 +19758,9 @@ var render = function() {
     [
       _c("Header"),
       _vm._v(" "),
-      _c("div", { attrs: { id: "content" } }, [_vm._t("default")], 2)
+      _c("div", { attrs: { id: "content" } }, [_vm._t("default")], 2),
+      _vm._v(" "),
+      _c("Footer")
     ],
     1
   )
