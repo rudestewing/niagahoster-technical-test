@@ -38,6 +38,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['price'],
@@ -99,11 +104,41 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['price'],
   computed: {
-    convertRupiah: function convertRupiah() {
+    numberFormat: function numberFormat() {
       return function (value) {
         var formater = format_number__WEBPACK_IMPORTED_MODULE_0___default()({
           prefix: '',
@@ -758,6 +793,25 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/PriceCardHeader.vue?vue&type=style&index=0&id=1122a56a&lang=scss&scoped=true&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/sass-loader/dist/cjs.js??ref--8-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/PriceCardHeader.vue?vue&type=style&index=0&id=1122a56a&lang=scss&scoped=true& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".stack-top[data-v-1122a56a] {\n  /* adjust the below to control the shape */\n  --d:8px;\n  --w:180px;\n  /**/\n  position: absolute;\n  top: 0;\n  right: 0;\n  transform: translate(29.29%, -100%) rotate(45deg);\n  /* 29.29% = 100%*(1 - cos(45deg)) */\n  color: #fff;\n  text-align: center;\n  width: var(--w);\n  transform-origin: bottom left;\n  padding: 8px 0 calc(var(--d) + 8px);\n  --bg-opacity:1;\n  background-color:#52B35A;\n  background-color:rgba(82, 179, 90, var(--bg-opacity));\n  font-weight:700;\n  -webkit-clip-path: polygon(0 100%, 0 calc(100% - var(--d)), 50% calc(100% - var(--d) - var(--w)/2), 100% calc(100% - var(--d)), 100% 100%, calc(100% - var(--d)) calc(100% - var(--d)), var(--d) calc(100% - var(--d)));\n          clip-path: polygon(0 100%, 0 calc(100% - var(--d)), 50% calc(100% - var(--d) - var(--w)/2), 100% calc(100% - var(--d)), 100% 100%, calc(100% - var(--d)) calc(100% - var(--d)), var(--d) calc(100% - var(--d)));\n  left: 0;\n  right: auto;\n  transform: translate(-29.29%, -100%) rotate(-45deg);\n  transform-origin: bottom right;\n  box-shadow:0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);\n}\n.best-seller[data-v-1122a56a] {\n  position:absolute;\n  font-weight:700;\n  top: 0;\n  left: 0;\n  transform: rotate(-45deg);\n}\n.best-seller .best-seller-ribon[data-v-1122a56a] {\n  position:relative;\n  --text-opacity:1;\n  color:#fff;\n  color:rgba(255, 255, 255, var(--text-opacity));\n  z-index: 1;\n}\n.best-seller .best-seller-ribon[data-v-1122a56a]:before {\n  content: \"\";\n  --bg-opacity:1;\n  background-color:#52B35A;\n  background-color:rgba(82, 179, 90, var(--bg-opacity));\n  display:block;\n  position:absolute;\n  width: 180px;\n  height: 100px;\n  transform: perspective(240px) rotateX(60deg);\n  top: 0;\n  left: 0;\n  z-index: -1;\n  margin-top: -30px;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/PriceList.vue?vue&type=style&index=0&lang=scss&":
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/sass-loader/dist/cjs.js??ref--8-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/PriceList.vue?vue&type=style&index=0&lang=scss& ***!
@@ -1063,6 +1117,36 @@ function round(number, places) {
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/PriceCardHeader.vue?vue&type=style&index=0&id=1122a56a&lang=scss&scoped=true&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/sass-loader/dist/cjs.js??ref--8-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/PriceCardHeader.vue?vue&type=style&index=0&id=1122a56a&lang=scss&scoped=true& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--8-2!../../../node_modules/sass-loader/dist/cjs.js??ref--8-3!../../../node_modules/vue-loader/lib??vue-loader-options!./PriceCardHeader.vue?vue&type=style&index=0&id=1122a56a&lang=scss&scoped=true& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/PriceCardHeader.vue?vue&type=style&index=0&id=1122a56a&lang=scss&scoped=true&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/PriceList.vue?vue&type=style&index=0&lang=scss&":
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-2!./node_modules/sass-loader/dist/cjs.js??ref--8-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/PriceList.vue?vue&type=style&index=0&lang=scss& ***!
@@ -1141,7 +1225,10 @@ var render = function() {
   return _c(
     "div",
     {
-      staticClass: "t-border t-border-gray-400 t-text-center price-card t-pb-5"
+      staticClass: "t-border t-border-gray-400 t-text-center price-card t-pb-5",
+      class: {
+        "t-border-blue-medium": _vm.price.isBestSeller
+      }
     },
     [
       _c("PriceCardHeader", { attrs: { price: _vm.price } }),
@@ -1210,10 +1297,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/PriceCardHeader.vue?vue&type=template&id=1122a56a&":
-/*!******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/PriceCardHeader.vue?vue&type=template&id=1122a56a& ***!
-  \******************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/PriceCardHeader.vue?vue&type=template&id=1122a56a&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/PriceCardHeader.vue?vue&type=template&id=1122a56a&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1227,7 +1314,89 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", [
     _vm.price.isBestSeller
-      ? _c("div", [_c("div")])
+      ? _c("div", { staticClass: "t-bg-blue-medium t-text-white t-relative" }, [
+          _c("div", { staticClass: "stack-top" }, [
+            _vm._v("\n            BEST SELLER!\n        ")
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            [
+              _c("h2", { staticClass: "t-font-bold t-py-3" }, [
+                _vm._v(
+                  "\n                " +
+                    _vm._s(_vm.price.name) +
+                    "\n            "
+                )
+              ]),
+              _vm._v(" "),
+              _c("app-border-horizontal", {
+                staticClass: "t-border-blue-medium"
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "t-py-4" }, [
+                _c("div", [
+                  _c("span", { staticClass: "t-line-through" }, [
+                    _vm._v(
+                      "Rp " + _vm._s(_vm.numberFormat(_vm.price.value.before))
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "t-flex t-justify-center" }, [
+                  _c("span", { staticClass: "t-mr-2" }, [_vm._v(" Rp ")]),
+                  _vm._v(" "),
+                  _c(
+                    "span",
+                    {
+                      staticClass: "t-text-5xl t-font-bold",
+                      staticStyle: { "margin-top": "-14px" }
+                    },
+                    [
+                      _vm._v(
+                        "\n                        " +
+                          _vm._s(
+                            _vm.firstBlockPrice(
+                              _vm.numberFormat(_vm.price.value.after)
+                            )
+                          ) +
+                          "\n                    "
+                      )
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("span", [
+                    _vm._v(
+                      "\n                        " +
+                        _vm._s(
+                          _vm.restBlockPrice(
+                            _vm.numberFormat(_vm.price.value.after)
+                          )
+                        ) +
+                        "/ bln\n                    "
+                    )
+                  ])
+                ])
+              ]),
+              _vm._v(" "),
+              _c("app-border-horizontal", {
+                staticClass: "t-border-blue-medium"
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "t-py-3 t-bg-blue-darken" }, [
+                _c("span", { staticClass: "t-font-semibold" }, [
+                  _vm._v(_vm._s(_vm.numberFormat(_vm.price.totalUser)))
+                ]),
+                _vm._v(" Pengguna Terdaftar\n            ")
+              ]),
+              _vm._v(" "),
+              _c("app-border-horizontal", {
+                staticClass: "t-border-blue-medium"
+              })
+            ],
+            1
+          )
+        ])
       : _c(
           "div",
           [
@@ -1241,7 +1410,7 @@ var render = function() {
               _c("div", [
                 _c("span", { staticClass: "t-line-through" }, [
                   _vm._v(
-                    "Rp " + _vm._s(_vm.convertRupiah(_vm.price.value.before))
+                    "Rp " + _vm._s(_vm.numberFormat(_vm.price.value.before))
                   )
                 ])
               ]),
@@ -1260,7 +1429,7 @@ var render = function() {
                       "\n                    " +
                         _vm._s(
                           _vm.firstBlockPrice(
-                            _vm.convertRupiah(_vm.price.value.after)
+                            _vm.numberFormat(_vm.price.value.after)
                           )
                         ) +
                         "\n                "
@@ -1273,7 +1442,7 @@ var render = function() {
                     "\n                    " +
                       _vm._s(
                         _vm.restBlockPrice(
-                          _vm.convertRupiah(_vm.price.value.after)
+                          _vm.numberFormat(_vm.price.value.after)
                         )
                       ) +
                       "/ bln\n                "
@@ -1286,7 +1455,7 @@ var render = function() {
             _vm._v(" "),
             _c("div", { staticClass: "t-py-3" }, [
               _c("span", { staticClass: "t-font-semibold" }, [
-                _vm._v(_vm._s(_vm.price.totalUser))
+                _vm._v(_vm._s(_vm.numberFormat(_vm.price.totalUser)))
               ]),
               _vm._v(" Pengguna Terdaftar\n        ")
             ]),
@@ -2532,9 +2701,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _PriceCardHeader_vue_vue_type_template_id_1122a56a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PriceCardHeader.vue?vue&type=template&id=1122a56a& */ "./resources/js/components/PriceCardHeader.vue?vue&type=template&id=1122a56a&");
+/* harmony import */ var _PriceCardHeader_vue_vue_type_template_id_1122a56a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PriceCardHeader.vue?vue&type=template&id=1122a56a&scoped=true& */ "./resources/js/components/PriceCardHeader.vue?vue&type=template&id=1122a56a&scoped=true&");
 /* harmony import */ var _PriceCardHeader_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PriceCardHeader.vue?vue&type=script&lang=js& */ "./resources/js/components/PriceCardHeader.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _PriceCardHeader_vue_vue_type_style_index_0_id_1122a56a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PriceCardHeader.vue?vue&type=style&index=0&id=1122a56a&lang=scss&scoped=true& */ "./resources/js/components/PriceCardHeader.vue?vue&type=style&index=0&id=1122a56a&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
 
 
 
@@ -2542,13 +2713,13 @@ __webpack_require__.r(__webpack_exports__);
 
 /* normalize component */
 
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _PriceCardHeader_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _PriceCardHeader_vue_vue_type_template_id_1122a56a___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _PriceCardHeader_vue_vue_type_template_id_1122a56a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _PriceCardHeader_vue_vue_type_template_id_1122a56a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _PriceCardHeader_vue_vue_type_template_id_1122a56a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
-  null,
+  "1122a56a",
   null
   
 )
@@ -2574,19 +2745,35 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/PriceCardHeader.vue?vue&type=template&id=1122a56a&":
-/*!************************************************************************************!*\
-  !*** ./resources/js/components/PriceCardHeader.vue?vue&type=template&id=1122a56a& ***!
-  \************************************************************************************/
+/***/ "./resources/js/components/PriceCardHeader.vue?vue&type=style&index=0&id=1122a56a&lang=scss&scoped=true&":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/components/PriceCardHeader.vue?vue&type=style&index=0&id=1122a56a&lang=scss&scoped=true& ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceCardHeader_vue_vue_type_style_index_0_id_1122a56a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--8-2!../../../node_modules/sass-loader/dist/cjs.js??ref--8-3!../../../node_modules/vue-loader/lib??vue-loader-options!./PriceCardHeader.vue?vue&type=style&index=0&id=1122a56a&lang=scss&scoped=true& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/PriceCardHeader.vue?vue&type=style&index=0&id=1122a56a&lang=scss&scoped=true&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceCardHeader_vue_vue_type_style_index_0_id_1122a56a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceCardHeader_vue_vue_type_style_index_0_id_1122a56a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceCardHeader_vue_vue_type_style_index_0_id_1122a56a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceCardHeader_vue_vue_type_style_index_0_id_1122a56a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_2_node_modules_sass_loader_dist_cjs_js_ref_8_3_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceCardHeader_vue_vue_type_style_index_0_id_1122a56a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/PriceCardHeader.vue?vue&type=template&id=1122a56a&scoped=true&":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/components/PriceCardHeader.vue?vue&type=template&id=1122a56a&scoped=true& ***!
+  \************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceCardHeader_vue_vue_type_template_id_1122a56a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./PriceCardHeader.vue?vue&type=template&id=1122a56a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/PriceCardHeader.vue?vue&type=template&id=1122a56a&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceCardHeader_vue_vue_type_template_id_1122a56a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceCardHeader_vue_vue_type_template_id_1122a56a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./PriceCardHeader.vue?vue&type=template&id=1122a56a&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/PriceCardHeader.vue?vue&type=template&id=1122a56a&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceCardHeader_vue_vue_type_template_id_1122a56a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceCardHeader_vue_vue_type_template_id_1122a56a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PriceCardHeader_vue_vue_type_template_id_1122a56a_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

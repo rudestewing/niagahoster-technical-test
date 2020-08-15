@@ -1,5 +1,10 @@
 <template>
-    <div class="t-border t-border-gray-400 t-text-center price-card t-pb-5">
+    <div 
+        class="t-border t-border-gray-400 t-text-center price-card t-pb-5"
+        :class="{
+            't-border-blue-medium': price.isBestSeller
+        }"
+        >
         <PriceCardHeader :price="price"/>
         <div class="t-py-5">
             <ul>
