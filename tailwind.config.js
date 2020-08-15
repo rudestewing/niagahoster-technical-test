@@ -7,10 +7,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        blue: {
-          medium: '#2C8FEE',
-          darken: '#247FDF',
-        }
+        'blue-medium': '#2C8FEE',
+        'blue-darken': '#247FDF',
       },
     },
   },

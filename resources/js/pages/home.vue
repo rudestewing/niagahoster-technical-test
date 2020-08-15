@@ -168,7 +168,7 @@
                     <div class="col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8">
                         <div class="t-text-center">
                             <div class="t-h-32 t-flex t-items-center t-justify-center">
-                                <img src="/assets/svg/icon-PHP-Hosting_PHP Semua Versi.svg" alt="" class="t-h-24">
+                                <img src="/assets/svg/icon-PHP-Hosting_PHP Semua Versi.svg" alt="" class="t-h-20">
                             </div>
                             <div>
                                 <h3 class="t-font-bold">
@@ -184,7 +184,7 @@
                     <div class="col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8">
                         <div class="t-text-center">
                             <div class="t-h-32 t-flex t-items-center t-justify-center">
-                                <img src="/assets/svg/icon-PHP-Hosting_My-SQL.svg" alt="" class="t-h-24">
+                                <img src="/assets/svg/icon-PHP-Hosting_My-SQL.svg" alt="" class="t-h-20">
                             </div>
                             <div>
                                 <h3 class="t-font-bold">
@@ -200,7 +200,7 @@
                     <div class="col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8">
                         <div class="t-text-center">
                             <div class="t-h-32 t-flex t-items-center t-justify-center">
-                                <img src="/assets/svg/icon-PHP-Hosting_CPanel.svg" alt="" class="t-h-24">
+                                <img src="/assets/svg/icon-PHP-Hosting_CPanel.svg" alt="" class="t-h-20">
                             </div>
                             <div>
                                 <h3 class="t-font-bold">
@@ -216,7 +216,7 @@
                     <div class="col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8">
                         <div class="t-text-center">
                             <div class="t-h-32 t-flex t-items-center t-justify-center">
-                                <img src="/assets/svg/icon-PHP-Hosting_garansi-uptime.svg" alt="" class="t-h-24">
+                                <img src="/assets/svg/icon-PHP-Hosting_garansi-uptime.svg" alt="" class="t-h-20">
                             </div>
                             <div>
                                 <h3 class="t-font-bold">
@@ -232,7 +232,7 @@
                     <div class="col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8">
                         <div class="t-text-center">
                             <div class="t-h-32 t-flex t-items-center t-justify-center">
-                                <img src="/assets/svg/icon-PHP-Hosting_InnoDB.svg" alt="" class="t-h-24">
+                                <img src="/assets/svg/icon-PHP-Hosting_InnoDB.svg" alt="" class="t-h-20">
                             </div>
                             <div>
                                 <h3 class="t-font-bold">
@@ -247,7 +247,7 @@
                     <div class="col-12 col-md-6 col-lg-4 t-mb-3 md:t-mb-5 lg:t-mb-8">
                         <div class="t-text-center">
                             <div class="t-h-32 t-flex t-items-center t-justify-center">
-                                <img src="/assets/svg/icon-PHP-Hosting_My-SQL-remote.svg" alt="" class="t-h-24">
+                                <img src="/assets/svg/icon-PHP-Hosting_My-SQL-remote.svg" alt="" class="t-h-20">
                             </div>
                             <div>
                                 <h3 class="t-font-bold">
@@ -317,14 +317,14 @@
         <app-border-horizontal></app-border-horizontal>
         <app-wrapper-section-content>
             <app-wrapper-container>
-                <h1 class="t-text-center t-mb-3">
+                <h1 class="t-text-center t-mb-10">
                     Modul lengkap untuk menjalankan Aplikasi PHP Anda.
                 </h1>
-                <div class="row">
-                    <div class="col-6 col-md-4" v-for="(chunkedPhpModule, index) in chunkedPhpModules" :key="index">
-                        {{chunkedPhpModule.length}}
-                        <!-- <div v-for="(phpModule, index) in chunkedPhpModule" :key="index">
-                        </div> -->
+                <div class="row t-justify-center t-max-w-screen-lg t-mx-auto t-mb-5">
+                    <div class="col-6 col-md-4 col-lg-3 t-mb-3" v-for="(phpModuleItem, index) in phpModules" :key="index">
+                        <div v-for="(phpModule, index) in phpModuleItem" :key="index" class="t-ml-0 md:t-ml-8">
+                            {{phpModule}}
+                        </div>
                     </div>
                 </div>
                 <div class="t-mb-4 t-text-center">
@@ -333,10 +333,10 @@
             </app-wrapper-container>
         </app-wrapper-section-content>
 
-        <app-wrapper-section-content class="t-pb-0">
+        <app-wrapper-section-content class="md:t-pb-0">
             <app-wrapper-container>
                 <div class="row">
-                    <div class="col-12 col-md-8 col-lg-6 t-mb-4">
+                    <div class="col-12 col-md-8 col-lg-6">
                         <div>
                             <div class="t-mb-4 t-pt-0 md:t-py-4 lg:t-pt-6">
                                 <h1 class="t-mb-2 t-text-3xl">
@@ -348,12 +348,12 @@
                                     SuperMicro <b>Intel Xeon 24-Cores</b> server dengan RAM <b>128GB</b> dan teknologi <b>LIVE CloudLinux</b> utuk stabilitas server Anda. Dilengkapi dengan <b>SSD</b> untuk kecepatan <b>MySQL</b> dan caching, Apache load balancer berbasis LiteSpeed Technologies. <b>CageFS</b> security, <b>Raid-10</b> protection dan auto backup untuk keamanan website Anda.
                                 </p>
                             </div>
-                            <div class="t-mb-3">
+                            <div class="t-mb-5">
                                 <a href="#" class="button round primary">Pilih Hosting Anda</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-6 t-flex t-items-center">
+                    <div class="col-12 col-md-4 col-lg-6 t-flex t-items-end t-pt-4">
                         <div class="t-w-full">
                             <img src="/assets/images/support.png" alt="" class="t-w-full">
                         </div>
@@ -361,43 +361,43 @@
                 </div>
             </app-wrapper-container>
         </app-wrapper-section-content>
-        <app-wrapper-section-content class="t-bg-gray-300 t-pt-0">
+        <app-wrapper-section-content class="t-bg-gray-300">
             <app-wrapper-container>
                 <div class="row">
-                    <div class="col-12 col-md-6">
-                        <span>
+                    <div class="col-12 col-md-6 t-mb-3">
+                        <h2 class="t-text-center lg:t-text-left;">
                             Bagikan jika Anda menyukai halaman ini.
-                        </span>
+                        </h2>
                     </div>
-                    <div class="col-12 col-md-">
-                        <ul class="t-flex t-justify-end">
-                            <li class="t-flex">
+                    <div class="col-12 col-md-6">
+                        <ul class="t-flex t-flex-wrap t-justify-center lg:t-justify-end">
+                            <li class="t-flex t-mr-3 social-media-item">
                                 <a href="" class="t-bg-blue-darken t-h-8 t-w-8 t-flex t-justify-center t-items-center t-rounded-lg t-mr-1">
                                     <i class="fab fa-facebook-f t-text-white t-text-lg"></i>
                                 </a>
-                                <div class="t-h-full t-border-2 t-border-gray-400 t-rounded-md t-flex t-justify-center t-items-center t-px-2">
+                                <div class="t-h-full t-border-2 t-border-gray-400 t-rounded-md t-flex t-justify-center t-items-center t-px-2 counter">
                                     <span class="t-text-xs">
                                         80 K
                                     </span>
                                 </div>
                             </li>
-                            <li class="t-flex">
-                                <a href="" class="t-bg-blue-darken t-h-8 t-w-8 t-flex t-justify-center t-items-center t-rounded-lg t-mr-1">
+                            <li class="t-flex t-mr-3 social-media-item">
+                                <a href="" class="t-bg-blue-400 t-h-8 t-w-8 t-flex t-justify-center t-items-center t-rounded-lg t-mr-1">
                                     <i class="fab fa-twitter t-text-white t-text-lg"></i>
                                 </a>
-                                <div class="t-h-full t-border-2 t-border-gray-400 t-rounded-md t-flex t-justify-center t-items-center t-px-2">
+                                <div class="t-h-full t-border-2 t-border-gray-400 t-rounded-md t-flex t-justify-center t-items-center t-px-2 counter">
                                     <span class="t-text-xs">
                                         450
                                     </span>
                                 </div>
                             </li>
-                            <li class="t-flex">
-                                <a href="" class="t-bg-blue-darken t-h-8 t-w-8 t-flex t-justify-center t-items-center t-rounded-lg t-mr-1">
-                                    <i class="fab fa-google-f t-text-white t-text-lg"></i>
+                            <li class="t-flex t-mr-3 social-media-item">
+                                <a href="" class="t-bg-red-600 t-h-8 t-w-8 t-flex t-justify-center t-items-center t-rounded-lg t-mr-1">
+                                    <i class="fab fa-google t-text-white t-text-lg"></i>
                                 </a>
-                                <div class="t-h-full t-border-2 t-border-gray-400 t-rounded-md t-flex t-justify-center t-items-center t-px-2">
+                                <div class="t-h-full t-border-2 t-border-gray-400 t-rounded-md t-flex t-justify-center t-items-center t-px-2 counter">
                                     <span class="t-text-xs">
-                                        450
+                                        1900
                                     </span>
                                 </div>
                             </li>
@@ -416,85 +416,76 @@ export default {
     components: {
         PriceList,
     },
-    computed: {
-        chunkedPhpModules: function() {
-            return [];
-            // const chunked = this.lodash.chunk(this.phpModules, 4);
-            // Array.from(chunked).forEach(item => {
-            //     Array.from(item).forEach(phpModule => {
-
-            //     });
-            // });
-            // for (let index = 0; index < chunked.length; index++) {
-                
-            // }
-
-            // return 
-
-        }
-    },
     data() {
         return {
             phpModules: [
-                'icePHP', 
-                'apc',
-                'apcu',
-                'apm',
-                'ares',
-                'bcmath',
-                'bcompiler',
-                'big_int',
-                'bitset',
-                'bloomy',
-                'bz2_filter',
-                'clamav',
-                'coin_aceptor',
-                'crack',
-                'dba',
-                'http',
-                'huffman',
-                'idn',
-                'igbinary',
-                'imagick',
-                'imap',
-                'inclued',
-                'inotify',
-                'interbase',
-                'intl',
-                'ioncube_loader',
-                'ioncube_loader_4',
-                'jsmin',
-                'json',
-                'ldap',
-                'nd_pdo_mysql',
-                'oauth',
-                'oci8',
-                'odbc',
-                'opache',
-                'pdf',
-                'pdo',
-                'pdo_dblib',
-                'pdo_firebird',
-                'pdo_mysql',
-                'pdo_odbc',
-                'pdo_sqlite',
-                'pgsql',
-                'phalcon',
-                'stats',
-                'stem',
-                'stomp',
-                'suhosin',
-                'sybase_ct',
-                'sysvmsg',
-                'sysvsem',
-                'sysvshm',
-                'tidy',
-                'timezonedb',
-                'trader',
-                'transit',
-                'uploadprogress',
-                'uri_template',
-                'uuid'
+                [
+                    'icePHP', 
+                    'apc',
+                    'apcu',
+                    'apm',
+                    'ares',
+                    'bcmath',
+                    'bcompiler',
+                    'big_int',
+                    'bitset',
+                    'bloomy',
+                    'bz2_filter',
+                    'clamav',
+                    'coin_aceptor',
+                    'crack',
+                    'dba',
+                ],
+                [
+                    'http',
+                    'huffman',
+                    'idn',
+                    'igbinary',
+                    'imagick',
+                    'imap',
+                    'inclued',
+                    'inotify',
+                    'interbase',
+                    'intl',
+                    'ioncube_loader',
+                    'ioncube_loader_4',
+                    'jsmin',
+                    'json',
+                    'ldap',
+                    'nd_pdo_mysql',
+                ],
+                [
+                    'oauth',
+                    'oci8',
+                    'odbc',
+                    'opache',
+                    'pdf',
+                    'pdo',
+                    'pdo_dblib',
+                    'pdo_firebird',
+                    'pdo_mysql',
+                    'pdo_odbc',
+                    'pdo_sqlite',
+                    'pgsql',
+                    'phalcon',
+                    'stats',
+                    'stem',
+                    'stomp',
+                ],
+                [
+                     'suhosin',
+                    'sybase_ct',
+                    'sysvmsg',
+                    'sysvsem',
+                    'sysvshm',
+                    'tidy',
+                    'timezonedb',
+                    'trader',
+                    'transit',
+                    'uploadprogress',
+                    'uri_template',
+                    'uuid'
+                ],
             ]
         }
     },
@@ -503,3 +494,37 @@ export default {
     }
 }
 </script>
+
+<style lang="scss" scoped>
+.social-media-item {
+    a {
+        &:hover {
+            @apply t-no-underline;
+        }
+    }
+    .counter {
+        margin-left: 8px;
+        position: relative;
+        @apply t-bg-gray-200;
+        z-index: 2;
+        &:after {
+            z-index: 1;
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            margin-left: -5px;
+            height: 8px;
+            width: 8px;
+            @apply t-border-2;
+            @apply t-border-gray-400;
+            @apply t-bg-gray-200;
+            border-bottom:  0px;
+            border-right:  0px;
+            transform: rotate(-45deg);
+        }   
+    }
+}
+</style>
