@@ -461,10 +461,240 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     FooterTop: _FooterTop_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  data: function data() {
+    return {
+      contact: {
+        one: ['0274-5305505', 'Senin - Minggu', '24 Jam Nonstop'],
+        two: ['Jl. Selokan Mataram Monjali', 'Karangjati MT I/304', 'Sinduadi, Mlati, Sleman', 'Yogyakarta 55284']
+      },
+      services: [{
+        title: 'Domain',
+        path: '/#'
+      }, {
+        title: 'Shared Hosting',
+        path: '/#'
+      }, {
+        title: 'Cloud VPS Hosting',
+        path: '/#'
+      }, {
+        title: 'Manage VPS Hosting',
+        path: '/#'
+      }, {
+        title: 'Web Builder',
+        path: '/#'
+      }, {
+        title: 'Keamanan SSL/ HTTPS',
+        path: '/#'
+      }, {
+        title: 'Jasa Pembuatan Website',
+        path: '/#'
+      }, {
+        title: 'Program Afiliasi',
+        path: '/#'
+      }],
+      serviceHostings: [{
+        title: 'Hosting Murah',
+        path: '/#'
+      }, {
+        title: 'Hosting Indonesia',
+        path: '/#'
+      }, {
+        title: 'Hosting Singapura SG',
+        path: '/#'
+      }, {
+        title: 'Hosting PHP',
+        path: '/#'
+      }, {
+        title: 'Hosting Wordpress',
+        path: '/#'
+      }, {
+        title: 'Hosting Laravel',
+        path: '/#'
+      }],
+      tutorials: [{
+        title: 'Knowledgebase',
+        path: '/#'
+      }, {
+        title: 'Blog',
+        path: '/#'
+      }, {
+        title: 'Cara Pembayaran',
+        path: '/#'
+      }],
+      aboutUs: [{
+        title: 'Tim Niagahoster',
+        path: '/#'
+      }, {
+        title: 'Karir',
+        path: '/#'
+      }, {
+        title: 'Events',
+        path: '/#'
+      }, {
+        title: 'Penawaran & Promo Spesial',
+        path: '/#'
+      }, {
+        title: 'Kontak Kami',
+        path: '/#'
+      }],
+      whyChoose: ['Support Terbaik', 'Garansi Harga Termurah', 'Domain Gratis Selamanya', 'Datacenter Hosting Terbaik', 'Review Pelanggan'],
+      socials: [{
+        name: 'facebook',
+        iconHtml: '<i class="fab fa-facebook-f"></i>',
+        url: 'https://google.com'
+      }, {
+        name: 'twitter',
+        iconHtml: '<i class="fab fa-twitter"></i>',
+        url: 'https://google.com'
+      }, {
+        name: 'google',
+        iconHtml: '<i class="fab fa-google"></i>',
+        url: 'https://google.com'
+      }],
+      paymentIconNames: ['bca', 'mandiri', 'bni', 'visa', 'master-card', 'atm-bersama', 'permata-bank', 'prima', 'alto']
+    };
+  },
+  methods: {
+    handleSubmit: function handleSubmit() {}
   }
 });
 
@@ -19270,7 +19500,372 @@ var render = function() {
   return _c(
     "div",
     { attrs: { id: "footer" } },
-    [_c("FooterTop"), _vm._v(" "), _c("div")],
+    [
+      _c("FooterTop"),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "t-bg-dark t-text-gray-400" },
+        [
+          _c(
+            "app-wrapper-section-content",
+            [
+              _c("app-wrapper-container", [
+                _c("div", { staticClass: "row t-mb-3 lg:t-mb-12" }, [
+                  _c("div", { staticClass: "col-12 col-md-6 col-lg-3" }, [
+                    _c(
+                      "h3",
+                      {
+                        staticClass:
+                          "t-font-bold t-mb-5 t-text-gray-600 t-mt-3 t-h-8"
+                      },
+                      [_vm._v(" HUBUNGI KAMI ")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "ul",
+                      { staticClass: "t-mb-4" },
+                      _vm._l(_vm.contact.one, function(item, index) {
+                        return _c("li", { key: index, staticClass: "t-mb-1" }, [
+                          _vm._v(
+                            "\n                                " +
+                              _vm._s(item) +
+                              "\n                            "
+                          )
+                        ])
+                      }),
+                      0
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "ul",
+                      { staticClass: "t-mb-4" },
+                      _vm._l(_vm.contact.two, function(item, index) {
+                        return _c("li", { key: index, staticClass: "t-mb-1" }, [
+                          _vm._v(
+                            "\n                                " +
+                              _vm._s(item) +
+                              "\n                            "
+                          )
+                        ])
+                      }),
+                      0
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6 col-lg-3" }, [
+                    _c(
+                      "h3",
+                      {
+                        staticClass:
+                          "t-font-bold t-mb-5 t-text-gray-600 t-mt-3 t-h-8"
+                      },
+                      [_vm._v(" Layanan ")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "ul",
+                      { staticClass: "t-mb-3" },
+                      _vm._l(_vm.services, function(service, index) {
+                        return _c("li", { key: index, staticClass: "t-mb-1" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "hover:t-text-gray-100 hover:t-no-underline",
+                              attrs: { href: service.path }
+                            },
+                            [_vm._v(_vm._s(service.title))]
+                          )
+                        ])
+                      }),
+                      0
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6 col-lg-3" }, [
+                    _c(
+                      "h3",
+                      {
+                        staticClass:
+                          "t-font-bold t-mb-5 t-text-gray-600 t-mt-3 t-h-8"
+                      },
+                      [_vm._v(" SERVICE HOSTING ")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "ul",
+                      { staticClass: "t-mb-3" },
+                      _vm._l(_vm.serviceHostings, function(
+                        serviceHosting,
+                        index
+                      ) {
+                        return _c("li", { key: index, staticClass: "t-mb-1" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "hover:t-text-gray-100 hover:t-no-underline",
+                              attrs: { href: serviceHosting.path }
+                            },
+                            [_vm._v(_vm._s(serviceHosting.title))]
+                          )
+                        ])
+                      }),
+                      0
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6 col-lg-3" }, [
+                    _c(
+                      "h3",
+                      {
+                        staticClass:
+                          "t-font-bold t-mb-5 t-text-gray-600 t-mt-3 t-h-8"
+                      },
+                      [_vm._v(" TUTORIAL ")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "ul",
+                      { staticClass: "t-mb-3" },
+                      _vm._l(_vm.tutorials, function(tutorial, index) {
+                        return _c("li", { key: index, staticClass: "t-mb-1" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "hover:t-text-gray-100 hover:t-no-underline",
+                              attrs: { href: tutorial.path }
+                            },
+                            [_vm._v(_vm._s(tutorial.title))]
+                          )
+                        ])
+                      }),
+                      0
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row t-mb-3 lg:t-mb-12" }, [
+                  _c("div", { staticClass: "col-12 col-md-6 col-lg-3" }, [
+                    _c(
+                      "h3",
+                      {
+                        staticClass:
+                          "t-font-bold t-mb-5 t-text-gray-600 t-mt-3 t-h-8"
+                      },
+                      [_vm._v(" TENTANG KAMI ")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "ul",
+                      { staticClass: "t-mb-3" },
+                      _vm._l(_vm.aboutUs, function(about, index) {
+                        return _c("li", { key: index, staticClass: "t-mb-1" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass:
+                                "hover:t-text-gray-100 hover:t-no-underline",
+                              attrs: { href: about.path }
+                            },
+                            [_vm._v(_vm._s(about.title))]
+                          )
+                        ])
+                      }),
+                      0
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6 col-lg-3" }, [
+                    _c(
+                      "h3",
+                      {
+                        staticClass:
+                          "t-font-bold t-mb-5 t-text-gray-600 t-mt-3 t-h-8"
+                      },
+                      [_vm._v(" KENAPA PILIH NIAGAHOSTER? ")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "ul",
+                      { staticClass: "t-mb-3" },
+                      _vm._l(_vm.whyChoose, function(why, index) {
+                        return _c("li", { key: index, staticClass: "t-mb-1" }, [
+                          _vm._v(
+                            "\n                                " +
+                              _vm._s(why) +
+                              "\n                            "
+                          )
+                        ])
+                      }),
+                      0
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6 col-lg-3" }, [
+                    _c(
+                      "h3",
+                      {
+                        staticClass:
+                          "t-font-bold t-mb-5 t-text-gray-600 t-mt-3 t-h-8"
+                      },
+                      [_vm._v(" NEWSLETTER ")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "t-flex t-content-between t-items-stretch t-bg-white t-text-gray-700 t-outline-none t-border-white",
+                        staticStyle: {
+                          "border-radius": "5rem",
+                          "border-width": "4px"
+                        }
+                      },
+                      [
+                        _c("input", {
+                          staticClass:
+                            "t-p-4 t-bg-white t-text-gray-700 t-outline-none t-border-none",
+                          staticStyle: { "border-radius": "5rem" },
+                          attrs: { type: "text", placeholder: "Email" }
+                        })
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-12 col-md-6 col-lg-3" }, [
+                    _c("h3", {
+                      staticClass:
+                        "t-font-bold t-mb-5 t-text-gray-600 t-mt-3 t-h-8"
+                    }),
+                    _vm._v(" "),
+                    _c(
+                      "ul",
+                      { staticClass: "t-flex t-flex-wrap t-justify-left" },
+                      _vm._l(_vm.socials, function(social, index) {
+                        return _c(
+                          "li",
+                          { key: index, staticClass: "t-mr-3 t-mb-2" },
+                          [
+                            _c(
+                              "a",
+                              {
+                                staticClass:
+                                  "t-rounded-full t-border t-border-gray-500 t-text-gray-500 t-h-12 t-w-12 t-flex t-items-center t-justify-center hover:t-text-gray-800 hover:t-bg-white",
+                                staticStyle: { "border-width": "3px" },
+                                attrs: { href: social.url, target: "_blank" }
+                              },
+                              [
+                                _c("div", {
+                                  staticClass: "t-text-lg",
+                                  domProps: {
+                                    innerHTML: _vm._s(social.iconHtml)
+                                  }
+                                })
+                              ]
+                            )
+                          ]
+                        )
+                      }),
+                      0
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row t-mb-3 lg:t-mb-12" }, [
+                  _c("div", { staticClass: "col-12" }, [
+                    _c(
+                      "h3",
+                      {
+                        staticClass:
+                          "t-font-bold t-mb-5 t-text-gray-600 t-mt-3 t-h-8"
+                      },
+                      [_vm._v(" PEMBAYARAN ")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "ul",
+                      { staticClass: "t-flex t-flex-wrap t-justify-left" },
+                      _vm._l(_vm.paymentIconNames, function(iconName, index) {
+                        return _c(
+                          "li",
+                          {
+                            key: index,
+                            staticClass:
+                              "t-border-2 t-border-gray-500 t-mr-2 lg:t-mr-4 t-mb-2 lg:t-mb-4 t-rounded-lg t-flex t-justify-center t-items-center t-h-10 t-w-24"
+                          },
+                          [
+                            _vm._v(
+                              "\n                                hello\n                            "
+                            )
+                          ]
+                        )
+                      }),
+                      0
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col-12" }, [
+                    _c(
+                      "p",
+                      {
+                        staticClass:
+                          "t-font-bold t-mb-5 t-text-gray-700 t-mt-3 t-h-8"
+                      },
+                      [
+                        _vm._v(
+                          "\n                            Aktivasi instant dengan e-Payment Hosting dan domain langsung aktif!\n                        "
+                        )
+                      ]
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "t-border t-border-gray-900 t-mb-4" }),
+                _vm._v(" "),
+                _c("div", { staticClass: "row t-text-xs" }, [
+                  _c(
+                    "div",
+                    { staticClass: "col-12 col-lg-8 t-mb-4 lg:t-mb-0" },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n                            Copyright 2016 Niagahoster | Hosting powered by PHP7, CloudLinux, CloudFlare, BitNinja, and DC Biznet Technovillage Jakarta \n                        "
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("p", [
+                        _vm._v(
+                          "\n                            Clodu VPS Murah powered by Webuzo Softacolus, intel SSD and cloud computing technology\n                        "
+                        )
+                      ])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    { staticClass: "col-12 col-lg-4 lg:t-text-right" },
+                    [
+                      _c(
+                        "a",
+                        { attrs: { href: "/#", clas: "t-text-gray-700" } },
+                        [_vm._v(" Syarat & Ketentuan | Kebijakan Privasi ")]
+                      )
+                    ]
+                  )
+                ])
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
     1
   )
 }
