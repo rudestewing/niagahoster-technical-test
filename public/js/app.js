@@ -690,7 +690,12 @@ __webpack_require__.r(__webpack_exports__);
         iconHtml: '<i class="fab fa-google"></i>',
         url: 'https://google.com'
       }],
-      paymentIconNames: ['bca', 'mandiri', 'bni', 'visa', 'master-card', 'atm-bersama', 'permata-bank', 'prima', 'alto']
+      paymentIconNames: ['bca', 'mandiri', 'bni', 'visa', 'bca', 'mandiri', 'bni', 'visa' // 'master-card',
+      // 'atm-bersama',
+      // 'permata-bank',
+      // 'prima',
+      // 'alto'
+      ]
     };
   },
   methods: {
@@ -19794,12 +19799,16 @@ var render = function() {
                           {
                             key: index,
                             staticClass:
-                              "t-border-2 t-border-gray-500 t-mr-2 lg:t-mr-4 t-mb-2 lg:t-mb-4 t-rounded-lg t-flex t-justify-center t-items-center t-h-10 t-w-24"
+                              "t-border-2 t-border-gray-500 t-mr-2 lg:t-mr-4 t-mb-2 lg:t-mb-4 t-rounded-lg t-flex t-justify-center t-items-center t-h-10 t-w-24 t-bg-gray-100"
                           },
                           [
-                            _vm._v(
-                              "\n                                hello\n                            "
-                            )
+                            _c("img", {
+                              staticClass: "t-h-6 t-w-auto",
+                              attrs: {
+                                src: "/assets/images/" + iconName + ".png",
+                                alt: ""
+                              }
+                            })
                           ]
                         )
                       }),
@@ -20221,7 +20230,7 @@ var render = function() {
     "div",
     {
       staticClass:
-        "t-fixed t-bg-white lg:t-hidden t-h-full t-pb-10 t-overflow-scroll t-border-l t-border-gray-400",
+        "t-fixed t-bg-white t-z-20 lg:t-hidden t-h-full t-pb-10 t-overflow-scroll t-border-l t-border-gray-400",
       class: {
         active: _vm.isMobileNavShowed
       },

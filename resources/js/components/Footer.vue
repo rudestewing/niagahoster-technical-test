@@ -107,8 +107,8 @@
                         <div class="col-12">
                             <h3 class="t-font-bold t-mb-5 t-text-gray-600 t-mt-3 t-h-8"> PEMBAYARAN </h3>
                             <ul class="t-flex t-flex-wrap t-justify-left">
-                                <li v-for="(iconName, index) in paymentIconNames" :key="index" class="t-border-2 t-border-gray-500 t-mr-2 lg:t-mr-4 t-mb-2 lg:t-mb-4 t-rounded-lg t-flex t-justify-center t-items-center t-h-10 t-w-24">
-                                    hello
+                                <li v-for="(iconName, index) in paymentIconNames" :key="index" class="t-border-2 t-border-gray-500 t-mr-2 lg:t-mr-4 t-mb-2 lg:t-mb-4 t-rounded-lg t-flex t-justify-center t-items-center t-h-10 t-w-24 t-bg-gray-100">
+                                    <img :src="`/assets/images/${iconName}.png`" alt="" class="t-h-6 t-w-auto">
                                 </li>
                             </ul>
                         </div>
@@ -287,11 +287,17 @@ export default {
                 'mandiri',
                 'bni',
                 'visa',
-                'master-card',
-                'atm-bersama',
-                'permata-bank',
-                'prima',
-                'alto'
+                
+                'bca',
+                'mandiri',
+                'bni',
+                'visa',
+                
+                // 'master-card',
+                // 'atm-bersama',
+                // 'permata-bank',
+                // 'prima',
+                // 'alto'
             ],
         }
     },

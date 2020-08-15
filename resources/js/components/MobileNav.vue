@@ -1,7 +1,7 @@
 <template>
     <div 
         id="nav-mobile" 
-        class="t-fixed t-bg-white lg:t-hidden t-h-full t-pb-10 t-overflow-scroll t-border-l t-border-gray-400" 
+        class="t-fixed t-bg-white t-z-20 lg:t-hidden t-h-full t-pb-10 t-overflow-scroll t-border-l t-border-gray-400" 
         :class="{
             'active': isMobileNavShowed
         }"
