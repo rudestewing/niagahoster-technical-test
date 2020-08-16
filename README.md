@@ -7,4 +7,4 @@ karena ketentuan testnya menggunakan laravel & Vue maka saya membuat seperti sup
 
 Aplikasi ini tidak menggunakan business logic pada backend & tidak terkoneksi dengan database apapun 
 
-cukup jalankan **Composer Install** saja untuk menjalankan project ini.
+cukup jalankan perintah **Composer Install** untuk dapat membuka project ini 
